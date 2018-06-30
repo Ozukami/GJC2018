@@ -152,6 +152,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 58814442544074392, guid: 0e7097107936f8e43a1c827014e2aa4e,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567216341291066, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
   m_IsPrefabParent: 0
@@ -164,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 118325763}
   - component: {fileID: 118325762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,6 +331,15 @@ Prefab:
       propertyPath: m_Name
       value: PlayerEarth
       objectReference: {fileID: 0}
+    - target: {fileID: 58507060567148156, guid: 780e4bc0919b1284698521bf4e26ae96,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781509716710980, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
   m_IsPrefabParent: 0
@@ -337,7 +355,7 @@ GameObject:
   - component: {fileID: 422509541}
   - component: {fileID: 422509543}
   - component: {fileID: 422509545}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -466,7 +484,7 @@ GameObject:
   - component: {fileID: 429751062}
   - component: {fileID: 429751064}
   - component: {fileID: 429751063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -603,6 +621,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 58494192482825230, guid: 10d1c8cb5754e6d42ad8cff814dffa47,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1422501377836012, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
   m_IsPrefabParent: 0
@@ -617,7 +644,7 @@ GameObject:
   - component: {fileID: 864385885}
   - component: {fileID: 864385884}
   - component: {fileID: 864385886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1387,7 +1414,7 @@ GameObject:
   - component: {fileID: 1421223227}
   - component: {fileID: 1421223229}
   - component: {fileID: 1421223228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3214,7 +3241,7 @@ GameObject:
   - component: {fileID: 1686752195}
   - component: {fileID: 1686752194}
   - component: {fileID: 1686752193}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch
   m_TagString: Switch
   m_Icon: {fileID: 0}
@@ -3369,6 +3396,15 @@ Prefab:
     - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 58990175224033958, guid: a89e12ef271e1a8419cbc77af7e49daf,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416024978965714, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}

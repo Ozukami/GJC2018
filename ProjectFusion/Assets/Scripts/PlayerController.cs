@@ -84,11 +84,18 @@ public class PlayerController : MonoBehaviour {
 
     private void UseSpell () {
         Debug.Log("Pew");
+        GetComponent<CircleCollider2D>().enabled = true;
+        Collider2D[] results = new Collider2D[10];
+        GetComponent<CircleCollider2D>().OverlapCollider(new ContactFilter2D(), results);
+        foreach (var col in results) {
+            if (col && col.name != name && col.gameObject.layer == 10)
+                Debug.Log(col.name);
+        }
+        GetComponent<CircleCollider2D>().enabled = false;
     }
-
+    
     private void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("at range");
         if (other.CompareTag("Switch"))
         {
             if (Input.GetKeyDown(KeyCode.E))

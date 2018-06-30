@@ -8,6 +8,7 @@
         <e p="Scripts" t="Include">
           <e p="Door.cs" t="Include" />
           <e p="Element.cs" t="Include" />
+          <e p="Patrol.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Switch.cs" t="Include" />
         </e>
