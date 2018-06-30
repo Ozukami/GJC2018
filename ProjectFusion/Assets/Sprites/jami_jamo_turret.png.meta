@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,10 +62,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,10 +73,43 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -89,10 +122,10 @@ TextureImporter:
       name: jami_jamo_turret_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 25
-        width: 24
-        height: 24
+        x: 3
+        y: 26
+        width: 19
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,7 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d1f7c843eb46b743a4a9e7b4b0e960a
+      spriteID: 3045cbc8af15ee24b9f3ea813d9a394b
       vertices: []
       indices: 
       edges: []
@@ -109,10 +142,10 @@ TextureImporter:
       name: jami_jamo_turret_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 25
-        width: 24
-        height: 24
+        x: 27
+        y: 26
+        width: 19
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd469e5e3fec7a546987cec58185e291
+      spriteID: 0ab26c51e740592439b8118a6d277fc5
       vertices: []
       indices: 
       edges: []
@@ -129,10 +162,10 @@ TextureImporter:
       name: jami_jamo_turret_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 24
-        height: 24
+        x: 3
+        y: 2
+        width: 19
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8729f82ae0278d348b3dd5cdd63e8286
+      spriteID: 6f3d68439e80a134a907a36ae160b877
       vertices: []
       indices: 
       edges: []
@@ -149,10 +182,10 @@ TextureImporter:
       name: jami_jamo_turret_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 1
-        width: 24
-        height: 24
+        x: 27
+        y: 2
+        width: 19
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0229d93d30fe2a944ab43b41faed1d3d
+      spriteID: 5a2e010c3ad364548a4bb9da47a1b69b
       vertices: []
       indices: 
       edges: []
@@ -169,11 +202,6 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 156374e9ecc61fb4e94fdfe49e0e522c
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-    outline: []
-    spriteID: 1a7e4a530c044cd4b80a03472d63b566
     vertices: []
     indices: 
     edges: []

@@ -13,7 +13,6 @@ public class Tower : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        fireballPos = transform.position;
         StartCoroutine("FireRoutine");
     }
 
@@ -24,20 +23,29 @@ public class Tower : MonoBehaviour {
     }
     void Fire()
     {
-        if(ballUp)
+
+        if (ballUp)
         {
+            fireballPos = transform.position;
+            fireballPos += new Vector2(0, 0.15f);
             Instantiate(ballUp, fireballPos, Quaternion.identity);
         }
         if (ballRight)
         {
+            fireballPos = transform.position;
+            fireballPos += new Vector2(0.15f, 0.07f);
             Instantiate(ballRight, fireballPos, Quaternion.identity);
         }
         if (ballDown)
         {
+            fireballPos = transform.position;
+            fireballPos += new Vector2(0, -0.05f);
             Instantiate(ballDown, fireballPos, Quaternion.identity);
         }
         if (ballLeft)
         {
+            fireballPos = transform.position;
+            fireballPos += new Vector2(-0.15f, 0.07f);
             Instantiate(ballLeft, fireballPos, Quaternion.identity);
         }
 
