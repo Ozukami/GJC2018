@@ -42,30 +42,6 @@ public class PlayerController : MonoBehaviour {
     }
 
     void InputHandler () {
-        /*
-        if (Input.GetKey(KeyCode.LeftArrow)) {
-            _animator.SetBool("isWalking", true);
-            _animator.SetInteger("orientation", 2);
-            GetComponent<SpriteRenderer>().flipX = true;
-            transform.Translate(Vector3.left * Time.deltaTime * speed);
-        } else if (Input.GetKey(KeyCode.UpArrow)) {
-            _animator.SetBool("isWalking", true);
-            _animator.SetInteger("orientation", 1);
-            transform.Translate(Vector3.up * Time.deltaTime * speed);
-        } else if (Input.GetKey(KeyCode.RightArrow)) {
-            _animator.SetBool("isWalking", true);
-            _animator.SetInteger("orientation", 2);
-            GetComponent<SpriteRenderer>().flipX = false;
-            transform.Translate(Vector3.right * Time.deltaTime * speed);
-        } else if (Input.GetKey(KeyCode.DownArrow)) {
-            _animator.SetBool("isWalking", true);
-            _animator.SetInteger("orientation", 0);
-            transform.Translate(Vector3.down * Time.deltaTime * speed);
-        } else {
-            GetComponent<SpriteRenderer>().flipX = false;
-            _animator.SetBool("isWalking", false);
-        }
-        */
         float axisX = Input.GetAxis("Horizontal");
         float axisY = Input.GetAxis("Vertical");
         if (axisX != 0 || axisY != 0) {
