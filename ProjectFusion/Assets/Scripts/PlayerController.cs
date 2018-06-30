@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private bool isDead = false;
-
+    private GameObject sounds;
     private int life = 10;
     private int orientation;
 
@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _rb2d = GetComponent<Rigidbody2D>();
+        sounds = GameObject.Find("Gm");
     }
 
     // Update is called once per frame
@@ -126,6 +127,7 @@ public class PlayerController : MonoBehaviour
         {
             if (collision.gameObject.tag != this.gameObject.tag)
             {
+              
                 Destroy(gameObject);
             }
         }
