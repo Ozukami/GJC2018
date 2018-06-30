@@ -19,4 +19,13 @@ public class Fireball : MonoBehaviour {
         Destroy(gameObject, 5f);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag != "Tower")
+        {
+
+            Destroy(gameObject);
+        }
+    }
+
 }
