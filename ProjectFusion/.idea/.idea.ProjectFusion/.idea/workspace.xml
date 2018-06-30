@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c79a0c92-1e85-44d8-a70d-0feac0500ae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFusion/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneArthur.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneArthur.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,20 +17,22 @@
       <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" column="52" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="52" />
+            <state relative-caret-position="435">
+              <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
               <folding>
-                <marker date="1530313288498" expanded="false" signature="6:78" ph="..." />
-                <marker date="1530313288498" expanded="true" signature="100:132" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="180:1231" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="398:437" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="501:532" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="559:1146" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="606:764" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="805:886" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="930:1014" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="1057:1140" ph="{...}" />
-                <marker date="1530313288498" expanded="true" signature="1171:1228" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="6:78" ph="..." />
+                <marker date="1530334746524" expanded="true" signature="100:132" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="158:203" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="251:3027" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="562:692" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="756:772" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="802:857" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="884:2850" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="988:2155" ph="/* if (Input.GetKey(KeyCode.LeftArrow)) { ... */" />
+                <marker date="1530334746524" expanded="true" signature="2294:2465" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="2877:2942" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="2908:2936" ph="{...}" />
+                <marker date="1530334746524" expanded="true" signature="2967:3024" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,12 +126,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530311463184</updated>
       <workItem from="1530311483272" duration="235000" />
-      <workItem from="1530311738089" duration="1600000" />
+      <workItem from="1530311738089" duration="7936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1835000" />
+    <option name="totallyTimeSpent" value="8171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,37 +184,41 @@
         <state relative-caret-position="165">
           <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
-            <marker date="1530313288498" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530313288498" expanded="true" signature="100:132" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="180:1231" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="398:437" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="501:532" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="559:1146" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="606:764" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="805:886" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="930:1014" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="1057:1140" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="1171:1228" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="6:78" ph="..." />
+            <marker date="1530334746524" expanded="true" signature="100:132" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="158:203" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="251:3027" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="562:692" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="756:772" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="802:857" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="884:2850" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="988:2155" ph="/* if (Input.GetKey(KeyCode.LeftArrow)) { ... */" />
+            <marker date="1530334746524" expanded="true" signature="2294:2465" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="2877:2942" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="2908:2936" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="2967:3024" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="52" />
+        <state relative-caret-position="435">
+          <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
           <folding>
-            <marker date="1530313288498" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530313288498" expanded="true" signature="100:132" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="180:1231" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="398:437" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="501:532" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="559:1146" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="606:764" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="805:886" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="930:1014" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="1057:1140" ph="{...}" />
-            <marker date="1530313288498" expanded="true" signature="1171:1228" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="6:78" ph="..." />
+            <marker date="1530334746524" expanded="true" signature="100:132" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="158:203" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="251:3027" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="562:692" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="756:772" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="802:857" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="884:2850" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="988:2155" ph="/* if (Input.GetKey(KeyCode.LeftArrow)) { ... */" />
+            <marker date="1530334746524" expanded="true" signature="2294:2465" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="2877:2942" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="2908:2936" ph="{...}" />
+            <marker date="1530334746524" expanded="true" signature="2967:3024" ph="{...}" />
           </folding>
         </state>
       </provider>
