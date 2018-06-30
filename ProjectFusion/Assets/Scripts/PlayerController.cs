@@ -69,4 +69,16 @@ public class PlayerController : MonoBehaviour {
             isDead = true;
     }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        Debug.Log("at range");
+        if (other.CompareTag("Switch"))
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("Activtion");
+                other.GetComponent<Switch>().ActivateSwitch();
+            }
+        }
+    }
 }
