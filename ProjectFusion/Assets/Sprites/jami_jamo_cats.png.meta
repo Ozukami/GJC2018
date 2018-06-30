@@ -1,0 +1,1240 @@
+fileFormatVersion: 2
+guid: 3c337cb2276583d46aa70ff5f643ce01
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jami_jamo_cats_0
+    21300002: jami_jamo_cats_1
+    21300004: jami_jamo_cats_2
+    21300006: jami_jamo_cats_3
+    21300008: jami_jamo_cats_4
+    21300010: jami_jamo_cats_5
+    21300012: jami_jamo_cats_6
+    21300014: jami_jamo_cats_7
+    21300016: jami_jamo_cats_8
+    21300018: jami_jamo_cats_9
+    21300020: jami_jamo_cats_10
+    21300022: jami_jamo_cats_11
+    21300024: jami_jamo_cats_12
+    21300026: jami_jamo_cats_13
+    21300028: jami_jamo_cats_14
+    21300030: jami_jamo_cats_15
+    21300032: jami_jamo_cats_16
+    21300034: jami_jamo_cats_17
+    21300036: jami_jamo_cats_18
+    21300038: jami_jamo_cats_19
+    21300040: jami_jamo_cats_20
+    21300042: jami_jamo_cats_21
+    21300044: jami_jamo_cats_22
+    21300046: jami_jamo_cats_23
+    21300048: jami_jamo_cats_24
+    21300050: jami_jamo_cats_25
+    21300052: jami_jamo_cats_26
+    21300054: jami_jamo_cats_27
+    21300056: jami_jamo_cats_28
+    21300058: jami_jamo_cats_29
+    21300060: jami_jamo_cats_30
+    21300062: jami_jamo_cats_31
+    21300064: jami_jamo_cats_32
+    21300066: jami_jamo_cats_33
+    21300068: jami_jamo_cats_34
+    21300070: jami_jamo_cats_35
+    21300072: jami_jamo_cats_36
+    21300074: jami_jamo_cats_37
+    21300076: jami_jamo_cats_38
+    21300078: jami_jamo_cats_39
+    21300080: jami_jamo_cats_40
+    21300082: jami_jamo_cats_41
+    21300084: jami_jamo_cats_42
+    21300086: jami_jamo_cats_43
+    21300088: jami_jamo_cats_44
+    21300090: jami_jamo_cats_45
+    21300092: jami_jamo_cats_46
+    21300094: jami_jamo_cats_47
+    21300096: jami_jamo_cats_48
+    21300098: jami_jamo_cats_49
+    21300100: jami_jamo_cats_50
+    21300102: jami_jamo_cats_51
+    21300104: jami_jamo_cats_52
+    21300106: jami_jamo_cats_53
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jami_jamo_cats_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b17833211e32546867bdc2657e49e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7360423764d8a3f4fb349a4430fdd040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4950735409327479e9982c4bf93300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ef86a480900814ea37f36209c22e72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed4ea749b562df41827096bd8edf1ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a33b9fd0db7893489e50c43f9143b28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e077432418e604fb64d53337f51427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c886843b11dfc45b95ede34b7a07f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a3db0dcec8efb4b88511061d230dfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb287945e93f304ea37e39e2910a260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4645a4b3584ac46b97db1b812f61fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e27380dce3eaa4e99dfcb629af45c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a332a99b1b3c964da431e79a7660be5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e86f3070b8e1ee44b2b692ead2afdce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b80ec00b69f7499f033afbf124ecd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87950bbfe1583d439a960644cc2364a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c01ac6668210c4cb5ad37371ca5a67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab64ca3a409c354da5847fb68f06e81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4610b43f41b804a9dc27cc5e24fb8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7651ccf7256d67c45b840bdfb984441c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a016d140ea696c64381e8f1ee17d1c3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90987b6cb5cfe8408ab4776126ea5c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02255c70db79c8e4287ea08403159c44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3f548f455868046bec94664fef8ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a846935d0cd2564d943055ed610d3e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72104c6491f3b754a80b4ae6150eebaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d259b41a8d1e7894d9b922343a2c1f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700eff2000a848341b550bc00a3e5b45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc32df11f45a184bb583c67ebc0dc23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91daf2daa4b4caa4bade195f4d20666d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c86f36052ddce4a8567dfaefa177cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac88629ca6d98ea45b0c8e01ea055156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af33e6240c1ee43b9c1308dd7376a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d0096f8581be24a9d1f28911434ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ed90180d176f04997d3f957f9d4810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48.833336
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a3027419650d541b8eb4c6ce15c2b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf52bb6dda4bb24cae61ff311dfec36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21e49ccb3f036b419d404dfc47e6100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d895aa6b8343240aa731d92be22f61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9041a9f9bc4b3954991c15ef78cc93d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b13dabdc0e661418cbd6cc223d501d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d715743b3f0f2f46a8d2c700b921a65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb842fc05c2aeba4bb80d2f912c793f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_43
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240bfe0645230a045b5f7d14af4599dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24.833334
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519b2b329dbbc17409c6e1b2893a8b7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd5188743daf564ab9d515bfaa924f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_46
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2365965299917f4ba0d4f670d1b335b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4f0da0cc8d547429698f2344e35c9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fe14e0282aae8478973ce687d4727a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88712c3d78dd74f49bcfa535f548abdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5ad02c8836314e842c23185314b5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d779bd5f75c63d64ca9d42f8fc6c3919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_52
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed02e67c6abafb4d9bb4cabf45542c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_cats_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0.83333397
+        width: 24.11111
+        height: 24.166666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49de39a56cfceb46b0ad9ef231b3a11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8bb3525f39429e743922651de196ec77
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
