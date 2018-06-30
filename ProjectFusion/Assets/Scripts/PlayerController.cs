@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Element {
-    fire, earth, water, wind
-}
-
 public enum Orientation {
     up = 0, down = 1, right = 2, left = 3
 }
@@ -15,7 +11,6 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private float speed;
     [SerializeField]
-    private Element element;
     private bool isDead = false;
 
     private int life = 10;
@@ -28,12 +23,11 @@ public class PlayerController : MonoBehaviour {
     void Start () {
         _animator = GetComponent<Animator>();
         _rb2d = GetComponent<Rigidbody2D>();
-        Debug.Log("I'm alive");
     }
     
     // Update is called once per frame
     void Update () {
-        
+        _animator.SetBool("isActive", (transform.parent != null));
     }
     
     void FixedUpdate () {
@@ -42,20 +36,39 @@ public class PlayerController : MonoBehaviour {
     }
 
     void InputHandler () {
-        float axisX = Input.GetAxis("Horizontal");
-        float axisY = Input.GetAxis("Vertical");
-        if (axisX != 0 || axisY != 0) {
-            _animator.SetBool("isWalking", true);
-            _animator.SetFloat("orientationX", axisX);
-            _animator.SetFloat("orientationY", axisY);
-            GetComponent<SpriteRenderer>().flipX = (axisX < 0) ? true : false;
-        } 
-        else
-            _animator.SetBool("isWalking", false);
-        _animator.SetFloat("axisX", axisX);
-        _animator.SetFloat("axisY", axisY);
-        transform.Translate(Vector3.right * axisX * Time.deltaTime * speed);
-        transform.Translate(Vector3.up * axisY * Time.deltaTime * speed);
+        if (transform.root.name == "ActivePlayer") {
+            float axisX = Input.GetAxis("Horizontal");
+            float axisY = Input.GetAxis("Vertical");
+            if (axisX != 0 || axisY != 0) {
+                _animator.SetBool("isWalking", true);
+                _animator.SetFloat("orientationX", axisX);
+                _animator.SetFloat("orientationY", axisY);
+                GetComponent<SpriteRenderer>().flipX = (axisX < 0) ? true : false;
+            } 
+            else
+                _animator.SetBool("isWalking", false);
+            _animator.SetFloat("axisX", axisX);
+            _animator.SetFloat("axisY", axisY);
+            transform.Translate(Vector3.right * axisX * Time.deltaTime * speed);
+            transform.Translate(Vector3.up * axisY * Time.deltaTime * speed);
+            if (Input.GetKeyDown(KeyCode.Space)) {
+                UseSpell();
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1) && name == "PlayerFire") {
+            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
+            transform.parent = GameObject.Find("ActivePlayer").transform;
+        } else if (Input.GetKeyDown(KeyCode.Alpha2) && name == "PlayerEarth") {
+            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
+            transform.parent = GameObject.Find("ActivePlayer").transform;
+        } else if (Input.GetKeyDown(KeyCode.Alpha3) && name == "PlayerWater") {
+            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
+            transform.parent = GameObject.Find("ActivePlayer").transform;
+        } else if (Input.GetKeyDown(KeyCode.Alpha4) && name == "PlayerWind") {
+            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
+            transform.parent = GameObject.Find("ActivePlayer").transform;
+        }
     }
 
     void OrientPlayer () {
@@ -67,6 +80,10 @@ public class PlayerController : MonoBehaviour {
     void CheckAlive () {
         if (life <= 0)
             isDead = true;
+    }
+
+    private void UseSpell () {
+        Debug.Log("Pew");
     }
 
     private void OnTriggerStay2D(Collider2D other)
