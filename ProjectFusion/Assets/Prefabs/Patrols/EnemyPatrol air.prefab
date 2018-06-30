@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 114501826447526852}
   m_Layer: 0
   m_Name: EnemySprite
-  m_TagString: Untagged
+  m_TagString: Air
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 4328874914080796}
   m_Layer: 0
   m_Name: EnemyPatrol air
-  m_TagString: Untagged
+  m_TagString: Air
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

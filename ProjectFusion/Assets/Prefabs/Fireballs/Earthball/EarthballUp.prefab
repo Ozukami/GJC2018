@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61727517590028978}
   m_Layer: 0
   m_Name: EarthballUp
-  m_TagString: Untagged
+  m_TagString: Earth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

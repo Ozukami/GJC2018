@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 114362019719843408}
   m_Layer: 0
   m_Name: EnemySprite
-  m_TagString: Untagged
+  m_TagString: Earth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 4078611511977794}
   m_Layer: 0
   m_Name: EnemyPatrol earth
-  m_TagString: Untagged
+  m_TagString: Earth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

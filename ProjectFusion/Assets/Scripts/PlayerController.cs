@@ -119,4 +119,16 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag=="Fire" || collision.gameObject.tag == "Earth" || collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water")
+        {
+            if (collision.gameObject.tag != this.gameObject.tag)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+    }
 }
