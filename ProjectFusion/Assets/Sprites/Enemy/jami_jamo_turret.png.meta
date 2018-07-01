@@ -65,7 +65,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -76,7 +76,40 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,10 +133,17 @@ TextureImporter:
       name: jami_jamo_turret_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
         x: 0
         y: 25.5
         width: 23.5
         height: 23.5
+=======
+        x: 3
+        y: 26
+        width: 19
+        height: 21
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,7 +151,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
       spriteID: 3afe6cc83ae64e84c90ae7e37a23fb74
+=======
+      spriteID: 3045cbc8af15ee24b9f3ea813d9a394b
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       vertices: []
       indices: 
       edges: []
@@ -120,10 +164,17 @@ TextureImporter:
       name: jami_jamo_turret_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
         x: 24
         y: 25.5
         width: 23.5
         height: 23.5
+=======
+        x: 27
+        y: 26
+        width: 19
+        height: 21
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,7 +182,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
       spriteID: 88c29830ad4d66b4facb57c81687a60d
+=======
+      spriteID: 0ab26c51e740592439b8118a6d277fc5
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       vertices: []
       indices: 
       edges: []
@@ -140,10 +195,17 @@ TextureImporter:
       name: jami_jamo_turret_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
         x: 0
         y: 1.5
         width: 23.5
         height: 23.5
+=======
+        x: 3
+        y: 2
+        width: 19
+        height: 21
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,7 +213,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
       spriteID: 433b9b9adc7426f478914e52c56d9010
+=======
+      spriteID: 6f3d68439e80a134a907a36ae160b877
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       vertices: []
       indices: 
       edges: []
@@ -160,10 +226,17 @@ TextureImporter:
       name: jami_jamo_turret_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
         x: 24
         y: 1.5
         width: 23.5
         height: 23.5
+=======
+        x: 27
+        y: 2
+        width: 19
+        height: 21
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,7 +244,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD:ProjectFusion/Assets/Sprites/jami_jamo_turret.png.meta
       spriteID: 3eab3cd70e1d5204c86389b09b01d210
+=======
+      spriteID: 5a2e010c3ad364548a4bb9da47a1b69b
+>>>>>>> 7eac3bb7a2a7228ba57bb2cc440f0bdbeef7238e:ProjectFusion/Assets/Sprites/Enemy/jami_jamo_turret.png.meta
       vertices: []
       indices: 
       edges: []

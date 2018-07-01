@@ -2,31 +2,31 @@ fileFormatVersion: 2
 guid: ee5c4faa0381f024c8f8a4f6b2d25276
 TextureImporter:
   fileIDToRecycleName:
-    21300000: jami_jamo_blobs_0
-    21300002: jami_jamo_blobs_1
-    21300004: jami_jamo_blobs_2
-    21300006: jami_jamo_blobs_3
-    21300008: jami_jamo_blobs_4
-    21300010: jami_jamo_blobs_5
-    21300012: jami_jamo_blobs_6
-    21300014: jami_jamo_blobs_7
-    21300016: jami_jamo_blobs_8
-    21300018: jami_jamo_blobs_9
-    21300020: jami_jamo_blobs_10
-    21300022: jami_jamo_blobs_11
-    21300024: jami_jamo_blobs_12
-    21300026: jami_jamo_blobs_13
-    21300028: jami_jamo_blobs_14
-    21300030: jami_jamo_blobs_15
-    21300032: jami_jamo_blobs_16
-    21300034: jami_jamo_blobs_17
-    21300036: jami_jamo_blobs_18
-    21300038: jami_jamo_blobs_19
-    21300040: jami_jamo_blobs_20
-    21300042: jami_jamo_blobs_21
-    21300044: jami_jamo_blobs_22
-    21300046: jami_jamo_blobs_23
-guid: cf28e119e05a5354ea9d495c9c97171d
+    21300000: jami_jamo_blobs_water_face_1
+    21300002: jami_jamo_blobs_earth_face_1
+    21300004: jami_jamo_blobs_fire_face_1
+    21300006: jami_jamo_blobs_air_face_1
+    21300008: jami_jamo_blobs_water_face_0
+    21300010: jami_jamo_blobs_earth_face_0
+    21300012: jami_jamo_blobs_fire_face_0
+    21300014: jami_jamo_blobs_air_face_0
+    21300016: jami_jamo_blobs_water_dos_1
+    21300018: jami_jamo_blobs_earth_dos_1
+    21300020: jami_jamo_blobs_fire_dos_1
+    21300022: jami_jamo_blobs_air_dos_1
+    21300024: jami_jamo_blobs_water_dos_0
+    21300026: jami_jamo_blobs_earth_dos_0
+    21300028: jami_jamo_blobs_fire_dos_0
+    21300030: jami_jamo_blobs_air_dos_0
+    21300032: jami_jamo_blobs_32
+    21300034: jami_jamo_blobs_water_side_0
+    21300036: jami_jamo_blobs_water_side_1
+    21300038: jami_jamo_blobs_earth_side_0
+    21300040: jami_jamo_blobs_earth_side_1
+    21300042: jami_jamo_blobs_fire_side_0
+    21300044: jami_jamo_blobs_fire_side_1
+    21300046: jami_jamo_blobs_air_side_0
+    21300048: jami_jamo_blobs_air_side_1
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -59,7 +59,7 @@ guid: cf28e119e05a5354ea9d495c9c97171d
     mipBias: -1
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -86,7 +86,7 @@ guid: cf28e119e05a5354ea9d495c9c97171d
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,7 +97,7 @@ guid: cf28e119e05a5354ea9d495c9c97171d
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,29 @@ guid: cf28e119e05a5354ea9d495c9c97171d
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,13 +140,13 @@ guid: cf28e119e05a5354ea9d495c9c97171d
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jami_jamo_blobs_0
+      name: jami_jamo_blobs_water_face_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 24.125
-        height: 24
+        x: 27
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,19 +154,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd3a29aa4ef6ca244a3f7cc94b17f705
+      spriteID: 2e9b4cf73bdc1bf4d9b442663b90c872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_1
+      name: jami_jamo_blobs_earth_face_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 48
-        width: 24.125
-        height: 24
+        x: 75
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,19 +174,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccb7bef4227b00844b3c1b2650b821e3
+      spriteID: f244e75c6dc3bb74a82f98e125d96b99
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_2
+      name: jami_jamo_blobs_fire_face_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 24.125
-        height: 24
+        x: 123
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,19 +194,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02f778ec36466a94cbce9134d36662e0
+      spriteID: b333791de9a36664c9294c21555afa8f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_3
+      name: jami_jamo_blobs_air_face_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 48
-        width: 24.125
-        height: 24
+        x: 171
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,19 +214,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48db37c4839108649ae61ecbbf3d5eee
+      spriteID: 4840d0e68b6766e4ba9ad562ac58ad07
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_4
+      name: jami_jamo_blobs_water_face_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 48
-        width: 24.125
-        height: 24
+        x: 3
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,19 +234,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bd6e92a674b7eb4cbe651c850722d6d
+      spriteID: 8371be85f3f298a4e8aea61cddec208a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_5
+      name: jami_jamo_blobs_earth_face_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 48
-        width: 24.125
-        height: 24
+        x: 51
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,19 +254,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3337e30bcf4748148a0556f6b1a1c711
+      spriteID: 6148c7fc0d7feda4eb8281ce9e61fba3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_6
+      name: jami_jamo_blobs_fire_face_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 48
-        width: 24.125
-        height: 24
+        x: 99
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,19 +274,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4b94c77fd8dea4fada9f660a037efa
+      spriteID: ec4135cd861cd77459f9835e63c5933d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_7
+      name: jami_jamo_blobs_air_face_0
       rect:
         serializedVersion: 2
-        x: 168
-        y: 48
-        width: 24
-        height: 24
+        x: 147
+        y: 50
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,19 +294,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccbf045c747ae604ca2a027d2fc73819
+      spriteID: e67a92365fea3c745ae4a5657f8e1aec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_8
+      name: jami_jamo_blobs_water_dos_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
-        width: 24.125
-        height: 24
+        x: 27
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,19 +314,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6bc5f528ce882142b968ee5e61e550e
+      spriteID: db52aebfecd45b24bbebc2f74fe40643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_9
+      name: jami_jamo_blobs_earth_dos_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 24
-        width: 24.125
-        height: 24
+        x: 75
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,19 +334,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31a361d22f6be704d837585e5116cdaf
+      spriteID: c0a22eb3bbc2c2c4d862ad0693778506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_10
+      name: jami_jamo_blobs_fire_dos_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 24
-        width: 24.125
-        height: 24
+        x: 123
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,19 +354,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6795ce6b35c6f83498232a62bb7775a9
+      spriteID: 90526a48257734b4999b93a32b1ac6f6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_11
+      name: jami_jamo_blobs_air_dos_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 24
-        width: 24.125
-        height: 24
+        x: 171
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,19 +374,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8984c3b21af351045b1fdb2fabc32793
+      spriteID: a80715dfa21771d448ef40187d265898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_12
+      name: jami_jamo_blobs_water_dos_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 24
-        width: 24.125
-        height: 24
+        x: 3
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,19 +394,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53a688ea83a93884aab3529f47700315
+      spriteID: 34e90bbea5f08164b851c5bb8d9931af
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_13
+      name: jami_jamo_blobs_earth_dos_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 24
-        width: 24.125
-        height: 24
+        x: 51
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,19 +414,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89ed735ffa507be499411c7c67a5aa31
+      spriteID: 967bfd4069f2cfc409455423ed755dca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_14
+      name: jami_jamo_blobs_fire_dos_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 24
-        width: 24.125
-        height: 24
+        x: 99
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,19 +434,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b061d98fa7e9b4e469d06aa11df84218
+      spriteID: ad61ad118fd03d448a672304aa251483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_15
+      name: jami_jamo_blobs_air_dos_0
       rect:
         serializedVersion: 2
-        x: 168
-        y: 24
-        width: 24.125
-        height: 24
+        x: 147
+        y: 26
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -432,19 +454,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d9d2d6303119da46b6ad214d67c7171
+      spriteID: bb32b4e2bf0a9314590f4e32709f22fc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_16
+      name: jami_jamo_blobs_32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24.125
-        height: 24
+        x: 2
+        y: 15
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,19 +474,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcfb62b88f5becf4e847f0cf18d7333a
+      spriteID: d5a87c48cc3308d4596d9b0f91c0e70b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_17
+      name: jami_jamo_blobs_water_side_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24.125
-        height: 24
+        x: 2
+        y: 2
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,19 +494,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40b1859e586c5a14dbeb5490e6076f28
+      spriteID: bcde1f35c78a7d74cb05fa489de5eab2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_18
+      name: jami_jamo_blobs_water_side_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24.125
-        height: 24
+        x: 26
+        y: 2
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,19 +514,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 451da1849f585f341b5def3be52e7578
+      spriteID: 20e2e4f6bf64a524a9331deff9901e53
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_19
+      name: jami_jamo_blobs_earth_side_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24.125
-        height: 24
+        x: 50
+        y: 2
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,19 +534,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc3cfe4a33c49a4996e68ab9ef2e660
+      spriteID: 2bef222a431111e48a23ee0f7f4da6ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_20
+      name: jami_jamo_blobs_earth_side_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24.125
-        height: 24
+        x: 74
+        y: 2
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,19 +554,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6511b83b0bd4d0f479dba389ce0df2f6
+      spriteID: 54438b9863b2092429729bdcdb56eb40
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_21
+      name: jami_jamo_blobs_fire_side_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 24.125
-        height: 24
+        x: 98
+        y: 2
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,19 +574,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d87b951e0ba8f540b31d6ce2c84b41c
+      spriteID: dac743d984164a649b2b23e72435eb69
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_22
+      name: jami_jamo_blobs_fire_side_1
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
-        width: 24.125
-        height: 24
+        x: 122
+        y: 2
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,19 +594,19 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93d94f1fb7cc1224aa5b9cdfb2265922
+      spriteID: 574adee694fdbba4a87fffc3628dcd5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jami_jamo_blobs_23
+      name: jami_jamo_blobs_air_side_0
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 24
-        height: 24
+        x: 146
+        y: 2
+        width: 21
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,7 +614,27 @@ guid: cf28e119e05a5354ea9d495c9c97171d
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b76d64d4b3ba6134aa5bb542e0973a15
+      spriteID: bd1e93c7d23afbb4399a20aa106845ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jami_jamo_blobs_air_side_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d1bb01bd9b604e840d975eb77b447
       vertices: []
       indices: 
       edges: []
@@ -600,7 +642,7 @@ guid: cf28e119e05a5354ea9d495c9c97171d
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f453c22f9d968da4fa66d1fc4a4204de
+    spriteID: 0fc8f3776fdce344fb4666b1119180dd
     vertices: []
     indices: 
     edges: []

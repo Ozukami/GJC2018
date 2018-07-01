@@ -10,6 +10,7 @@ public class Switch : MonoBehaviour
 
     private bool activated = false;
 
+
     // Use this for initialization
     void Start()
     {

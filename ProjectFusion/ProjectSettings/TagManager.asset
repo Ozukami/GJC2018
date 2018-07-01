@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Switch
   - Tower
+  - Fire
+  - Water
+  - Air
+  - Earth
   layers:
   - Default
   - TransparentFX
