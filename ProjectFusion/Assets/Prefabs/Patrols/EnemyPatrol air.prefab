@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 114501826447526852}
   m_Layer: 0
   m_Name: EnemySprite
-  m_TagString: mob
+  m_TagString: Wind
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
