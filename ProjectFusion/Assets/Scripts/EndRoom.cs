@@ -3,33 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EndRoom : MonoBehaviour
-{
-    private int colliders;
+public class EndRoom : MonoBehaviour {
+    [SerializeField] private string nextLevel;
+    private int colliders = 0;
 
-    // Use this for initialization
-    void Start()
-    {
-        colliders = 0;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
-    public void OnTriggerEnter2D(Collider2D other)
-    {
+    public void OnTriggerEnter2D (Collider2D other) {
         colliders++;
 
-        if (colliders == 4)
-        {
-            GetComponentInParent<GameManager>().SetState(GameStates.LoadLevel, "SampleScene");
+        if (colliders == 4) {
+            GameManager.Gm.SetState(GameStates.LoadLevel, nextLevel);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
+    private void OnTriggerExit2D (Collider2D other) {
         colliders--;
     }
 }

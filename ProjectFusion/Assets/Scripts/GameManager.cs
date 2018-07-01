@@ -5,53 +5,42 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public enum GameStates
-{
+public enum GameStates {
     Intro,
     Mainmenu,
     LevelSelection,
     LoadLevel
 }
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
     private BoxCollider2D endRoom;
     public bool paused;
     private GameStates currentState;
     public static GameManager Gm = null;
 
-    void Awake()
-    {
-        if (Gm == null)
-        {
+    void Awake () {
+        if (Gm == null) {
             Gm = this;
         }
-        else if (Gm != this)
-        {
+        else if (Gm != this) {
             Destroy(gameObject);
         }
     }
 
     // Use this for initialization
-    void Start()
-    {
+    void Start () {
         endRoom = GetComponentInChildren<BoxCollider2D>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-    
+    void Update () {
     }
 
-    public GameStates SetState(GameStates state, [CanBeNull] string scene)
-    {
-        if (currentState != state)
-        {
+    public GameStates SetState (GameStates state, [CanBeNull] string scene) {
+        if (currentState != state) {
             currentState = state;
 
-            switch (state)
-            {
+            switch (state) {
                 case GameStates.Intro:
                     break;
                 case GameStates.Mainmenu:
@@ -59,7 +48,7 @@ public class GameManager : MonoBehaviour
                 case GameStates.LevelSelection:
                     break;
                 case GameStates.LoadLevel:
-                    SceneManager.LoadScene(scene, LoadSceneMode.Additive);
+                    SceneManager.LoadScene(scene, LoadSceneMode.Single);
                     break;
                 default:
                     break;

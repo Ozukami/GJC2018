@@ -148,11 +148,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ef1f186e2b45440bfe477cdb97c882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fire: 0
-  earth: 0
-  water: 0
-  wind: 0
-  element: 1
+  initialElem: 1
+  currentElem: 1
+  Fire: 0
+  Earth: 0
+  Water: 0
+  Wind: 0
 --- !u!212 &212942411382741830
 SpriteRenderer:
   m_ObjectHideFlags: 1
