@@ -12,8 +12,9 @@ public enum Orientation {
 public class PlayerController : MonoBehaviour {
     
     [SerializeField] private float speed;
-    [SerializeField] private bool isDead = false;
 //    private GameObject sounds;
+
+    [SerializeField] private AnimatorOverrideController[] animatorControllers;
 
     private Element _element;
     private Animator _animator;
@@ -108,5 +109,9 @@ public class PlayerController : MonoBehaviour {
                 Destroy(gameObject);
             }
         }
+    }
+
+    public void ChangeAnimatorController (ElementType elem) {
+        _animator.runtimeAnimatorController = animatorControllers[(int)elem];
     }
 }

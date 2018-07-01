@@ -4,8 +4,8 @@ using UnityEngine;
 
 public enum ElementType
 {
-    fire,
     earth,
+    fire,
     water,
     wind
 }
@@ -50,8 +50,10 @@ public class Element : MonoBehaviour
 
     private void IncreaseElem (ElementType elemType) {
         elementValues[elemType] = Mathf.Min(100, elementValues[elemType] + 10);
-        if (elementValues[elemType] > 50)
+        if (elementValues[elemType] > 50) {
             currentElem = elemType;
+            GetComponent<PlayerController>().ChangeAnimatorController(currentElem);
+        }
     }
 
     private void DecreaseElem (ElementType elemType) {

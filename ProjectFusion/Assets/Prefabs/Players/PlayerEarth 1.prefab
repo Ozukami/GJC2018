@@ -136,7 +136,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  isDead: 0
+  animatorControllers:
+  - {fileID: 22100000, guid: 93693a60c6c56994281866b36557925b, type: 2}
+  - {fileID: 22100000, guid: c64757676d1644b4c83b1245230c5a8d, type: 2}
+  - {fileID: 22100000, guid: 57cbeb559c8489f4d936706c61ef29ff, type: 2}
+  - {fileID: 22100000, guid: 56957566c03c7ad48a81135d6eafb84a, type: 2}
 --- !u!114 &114832208269498898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -148,8 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ef1f186e2b45440bfe477cdb97c882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialElem: 1
-  currentElem: 1
+  initialElem: 0
+  currentElem: 0
   Fire: 0
   Earth: 0
   Water: 0
