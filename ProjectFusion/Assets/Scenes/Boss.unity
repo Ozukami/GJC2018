@@ -5022,7 +5022,22 @@ MonoBehaviour:
   ballRight: {fileID: 1471476507310008, guid: 1668ef67077080649871ecc8dfe32dbb, type: 2}
   ballDown: {fileID: 1129033412250180, guid: 7bcdd5ca71ed3254988c08036ff70092, type: 2}
   ballLeft: {fileID: 1695597375875278, guid: 75e8f6f85f358e34f80cf7c5ad7ae6a7, type: 2}
-  fireRate: 0
+  fireRate: 0.5
+--- !u!114 &1576224103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576224095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d35b676754f12e469c65b0dc8797d51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints: []
+  element: 
+  moveSpeed: 0
+  life: 30
 --- !u!1001 &1592379526
 Prefab:
   m_ObjectHideFlags: 0
@@ -6114,6 +6129,15 @@ Prefab:
         type: 2}
       propertyPath: m_FlipY
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114501826447526852, guid: 5bdb17d7b5c763a478bc036df4e9b767,
+        type: 2}
+      propertyPath: moveSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1411447724178780, guid: 5bdb17d7b5c763a478bc036df4e9b767, type: 2}
+      propertyPath: m_TagString
+      value: Tower
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bdb17d7b5c763a478bc036df4e9b767, type: 2}
