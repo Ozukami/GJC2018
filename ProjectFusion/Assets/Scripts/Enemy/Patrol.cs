@@ -86,7 +86,7 @@ public class Patrol : MonoBehaviour {
         old_pos = transform.position;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -94,7 +94,7 @@ public class Patrol : MonoBehaviour {
             string elementPlayer = cat.GetComponent<Element>().GetCurrentElem().ToString();
             if(elementPlayer != element)
             {
-                //GameManager.Gm.TakeDamage();
+                GameManager.Gm.TakeDamage();
                 SoundManager.soundMan.PlaySound(0);
             }
 
