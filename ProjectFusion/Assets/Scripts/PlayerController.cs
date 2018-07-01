@@ -10,7 +10,6 @@ public enum Orientation {
 }
 
 public class PlayerController : MonoBehaviour {
-    
     [SerializeField] private float speed;
 //    private GameObject sounds;
 
@@ -81,8 +80,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void UseSpell () {
-        Debug.Log("Pew");
-        transform.Find("InductionParticle").GetComponent<ParticleSystem>().Play();
+        _inductionParticle.Play();
         _inductionRange.enabled = true;
         Collider2D[] results = new Collider2D[10];
         _inductionRange.OverlapCollider(new ContactFilter2D(), results);
@@ -92,7 +90,7 @@ public class PlayerController : MonoBehaviour {
                 col.GetComponent<Element>().Induction(_element.GetCurrentElem());
             }
         }
-        
+
         _inductionRange.enabled = false;
 
         SoundManager.soundMan.PlaySound(2);
@@ -118,6 +116,16 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void ChangeAnimatorController (ElementType elem) {
-        _animator.runtimeAnimatorController = animatorControllers[(int)elem];
+        _animator.runtimeAnimatorController = animatorControllers[(int) elem];
+    }
+
+    public void ChangeParticleColor (ElementType elem) {
+        Color[] colors = {Color.green, Color.red, Color.blue, Color.yellow};
+        var particleColor = _inductionParticle.colorOverLifetime;
+        Gradient graddient = new Gradient();
+        graddient.SetKeys(
+            new GradientColorKey[] {new GradientColorKey(Color.white, 0.0f), new GradientColorKey(colors[(int)elem], 1.0f)},
+            new GradientAlphaKey[] {new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 1.0f)});
+        particleColor.color = graddient;
     }
 }

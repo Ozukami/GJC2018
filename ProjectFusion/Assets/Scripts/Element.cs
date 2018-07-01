@@ -2,27 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ElementType
-{
+public enum ElementType {
     earth,
     fire,
     water,
     wind
 }
 
-public class Element : MonoBehaviour
-{
+public class Element : MonoBehaviour {
+
+    private PlayerController pc;
     [SerializeField] private ElementType initialElem;
     private Dictionary<ElementType, int> elementValues;
-    
+
     [SerializeField] private ElementType currentElem;
-    
+
     [SerializeField] private float Fire;
     [SerializeField] private float Earth;
     [SerializeField] private float Water;
     [SerializeField] private float Wind;
 
-    private void Start() {
+    private void Start () {
+        pc = GetComponent<PlayerController>();
         elementValues = new Dictionary<ElementType, int>();
         elementValues.Add(ElementType.fire, 0);
         elementValues.Add(ElementType.earth, 0);
@@ -37,6 +38,7 @@ public class Element : MonoBehaviour
         Earth = elementValues[ElementType.earth];
         Water = elementValues[ElementType.water];
         Wind = elementValues[ElementType.wind];
+        pc.ChangeParticleColor(currentElem);
     }
 
     public ElementType GetCurrentElem () {
@@ -52,7 +54,8 @@ public class Element : MonoBehaviour
         elementValues[elemType] = Mathf.Min(100, elementValues[elemType] + 10);
         if (elementValues[elemType] > 50) {
             currentElem = elemType;
-            GetComponent<PlayerController>().ChangeAnimatorController(currentElem);
+            pc.ChangeAnimatorController(currentElem);
+            pc.ChangeParticleColor(currentElem);
         }
     }
 
@@ -65,7 +68,7 @@ public class Element : MonoBehaviour
                 maxElem = elem.Key;
             }
         }
+
         elementValues[maxElem] = Mathf.Max(0, elementValues[maxElem] - 10);
     }
-    
 }
