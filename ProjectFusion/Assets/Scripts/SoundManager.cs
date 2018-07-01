@@ -35,6 +35,6 @@ public class SoundManager : MonoBehaviour {
     {
 //        audio.clip = audios[clip];
 //        audio.Play();
-        audioSources[clip].Play();
+          audioSources[clip].Play();
     }
 }

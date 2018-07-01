@@ -9,20 +9,20 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1765965724435520}
+  m_RootGameObject: {fileID: 1970733968448900}
   m_IsPrefabParent: 1
---- !u!1 &1765965724435520
+--- !u!1 &1970733968448900
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4210883150376886}
-  - component: {fileID: 212774567010941022}
-  - component: {fileID: 50489995079113640}
-  - component: {fileID: 61447114557777244}
-  - component: {fileID: 114521287209696032}
+  - component: {fileID: 4510528128927510}
+  - component: {fileID: 212418043882619270}
+  - component: {fileID: 50288680836407408}
+  - component: {fileID: 61810284846615914}
+  - component: {fileID: 114810676665260540}
   m_Layer: 0
   m_Name: TowerEarth
   m_TagString: Tower
@@ -30,26 +30,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4210883150376886
+--- !u!4 &4510528128927510
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1765965724435520}
+  m_GameObject: {fileID: 1970733968448900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7120097, y: 0.08192991, z: 0}
+  m_LocalPosition: {x: -0.943, y: 0.111, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50489995079113640
+--- !u!50 &50288680836407408
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1765965724435520}
+  m_GameObject: {fileID: 1970733968448900}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -63,12 +63,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 7
---- !u!61 &61447114557777244
+--- !u!61 &61810284846615914
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1765965724435520}
+  m_GameObject: {fileID: 1970733968448900}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -88,28 +88,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17060006, y: 0.20988879}
   m_EdgeRadius: 0
---- !u!114 &114521287209696032
+--- !u!114 &114810676665260540
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1765965724435520}
+  m_GameObject: {fileID: 1970733968448900}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6dd5dd22a947c34e8f9a53d7c60e5f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballUp: {fileID: 1480467555660624, guid: 60983a389ab56254e8b0a90f7448e31d, type: 2}
-  ballRight: {fileID: 1471476507310008, guid: 1749823e981115d4a941c9613a642a6f, type: 2}
-  ballDown: {fileID: 1129033412250180, guid: f277d3401c6191b4fb9139a017054b7b, type: 2}
-  ballLeft: {fileID: 1695597375875278, guid: 996ba2a8fdad69447bf7d868bd4c1d40, type: 2}
+  ballUp: {fileID: 1480467555660624, guid: 20d98016bcc0e0c4f8e35c279606475e, type: 2}
+  ballRight: {fileID: 1471476507310008, guid: 814a74271fa7ba847bf1bdaacdd838ea, type: 2}
+  ballDown: {fileID: 1129033412250180, guid: 7bcdd5ca71ed3254988c08036ff70092, type: 2}
+  ballLeft: {fileID: 1695597375875278, guid: cbb6d406fab0ba44499fc2afb020312f, type: 2}
   fireRate: 0.9
---- !u!212 &212774567010941022
+--- !u!212 &212418043882619270
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1765965724435520}
+  m_GameObject: {fileID: 1970733968448900}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

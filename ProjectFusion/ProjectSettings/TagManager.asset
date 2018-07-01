@@ -14,6 +14,9 @@ TagManager:
   - earth
   - wind
   - water
+  - Undefined
+  - Air
+  - mob
   layers:
   - Default
   - TransparentFX
