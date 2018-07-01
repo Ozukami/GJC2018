@@ -12,148 +12,58 @@ public enum ElementType
 
 public class Element : MonoBehaviour
 {
-    private List<Element> elements;
+    [SerializeField] private ElementType initialElem;
+    private Dictionary<ElementType, int> elementValues;
+    
+    [SerializeField] private ElementType currentElem;
     
     [SerializeField] private float Fire;
     [SerializeField] private float Earth;
     [SerializeField] private float Water;
     [SerializeField] private float Wind;
-    [SerializeField] private string MainCarac;
 
-
-    [SerializeField] private ElementType element;
-
-    private void Start()
-    {
-        switch (element)
-        {
-            case ElementType.fire:
-                Fire = 100;
-                MainCarac = "Fire";
-                break;
-            case ElementType.earth:
-                Earth = 100;
-                MainCarac = "Earth";
-                break;
-            case ElementType.water:
-                Water = 100;
-                MainCarac = "Water";
-                break;
-            case ElementType.wind:
-                Wind = 100;
-                MainCarac = "Wind";
-                break;
-        }
+    private void Start() {
+        elementValues = new Dictionary<ElementType, int>();
+        elementValues.Add(ElementType.fire, 0);
+        elementValues.Add(ElementType.earth, 0);
+        elementValues.Add(ElementType.water, 0);
+        elementValues.Add(ElementType.wind, 0);
+        elementValues[initialElem] = 100;
+        currentElem = initialElem;
     }
 
-    private void SetMainCarac(string type)
-    {
-        var main = 0;
-
-        if (type == MainCarac)
-        {
-            type = GetSecondMainCarac(type)
-        }
-
-        if (MainCarac == "Fire")
-        {
-            Fire -= type != "Fire" ?  10 : 0;
-            main = Fire == Earth ? 1 :
-                Fire == Water ? 3 :
-                Fire == Wind ? 4 : 0;
-        }
-        else if (MainCarac == "Earth")
-        {
-            Earth -= 10;
-            main = Earth == Fire ? 1 :
-                Earth == Water ? 2 :
-                Earth == Wind ? 2 : 0;
-        }
-        else if (MainCarac == "Water")
-        {
-            Water -= 10;
-            main = Water == Fire ? 3 :
-                Water == Earth ? 2 :
-                Water == Wind ? 3 : 0;
-        }
-        else if (MainCarac == "Wind")
-        {
-            Wind -= 10;
-            main = Wind == Fire ? 4 :
-                Wind == Earth ? 2 :
-                Wind == Water ? 3 : 0;
-        }
-
-        if (main == 0)
-        {
-            if (Fire > Earth && Fire > Water &&
-                Fire > Wind)
-            {
-                MainCarac = "Fire";
-            }
-            else if (Earth > Fire && Earth > Water &&
-                     Earth > Wind)
-            {
-                MainCarac = "Earth";
-            }
-            else if (Water > Fire && Water > Earth &&
-                     Water > Wind)
-            {
-                MainCarac = "Water";
-            }
-            else if (Wind > Fire && Wind > Earth &&
-                     Wind > Water)
-            {
-                MainCarac = "Wind";
-            }
-        }
-        else
-        {
-            MainCarac = main == 1 ? "Fire" :
-                main == 2 ? "Earth" :
-                main == 3 ? "Water" :
-                main == 4 ? "Wind" : "FUSION";
-        }
+    private void Update () {
+        Fire = elementValues[ElementType.fire];
+        Earth = elementValues[ElementType.earth];
+        Water = elementValues[ElementType.water];
+        Wind = elementValues[ElementType.wind];
     }
 
-    public void SetCaracs(string type)
-    {
-        switch (type)
-        {
-            case "Earth":
-                Earth += 10;
-                break;
-            case "Fire":
-                Fire += 10;
-                break;
-            case "Water":
-                Water += 10;
-                break;
-            case "Wind":
-                Wind += 10;
-                break;
-            default:
-                break;
+    public ElementType GetCurrentElem () {
+        return currentElem;
+    }
+
+    public void Induction (ElementType elementType) {
+        DecreaseElem(elementType);
+        IncreaseElem(elementType);
+    }
+
+    private void IncreaseElem (ElementType elemType) {
+        elementValues[elemType] = Mathf.Min(100, elementValues[elemType] + 10);
+        if (elementValues[elemType] > 50)
+            currentElem = elemType;
+    }
+
+    private void DecreaseElem (ElementType elemType) {
+        ElementType maxElem = currentElem;
+        int maxValue = 0;
+        foreach (var elem in elementValues) {
+            if (!elem.Key.Equals(elemType) && elem.Value > maxValue) {
+                maxValue = elem.Value;
+                maxElem = elem.Key;
+            }
         }
-
-        SetMainCarac(type);
-        Debug.Log(Fire);
-        Debug.Log(Earth);
-        Debug.Log(Water);
-        Debug.Log(Wind);
-        Debug.Log(MainCarac);
-    }
-
-    
-
-    public string GetMainCarac ()
-    {
-        return MainCarac;
-    }
-
-    public string GetSecondMainCarac(string type)
-    {
-        
+        elementValues[maxElem] = Mathf.Max(0, elementValues[maxElem] - 10);
     }
     
 }

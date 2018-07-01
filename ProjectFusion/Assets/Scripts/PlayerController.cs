@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
             if (col && col.name != name && col.gameObject.layer == 10)
             {
                 Debug.Log(col.name);
-                col.gameObject.GetComponent<Element>().SetCaracs(_element.GetMainCarac());
+                col.GetComponent<Element>().Induction(_element.GetCurrentElem());
             }
         }
 
