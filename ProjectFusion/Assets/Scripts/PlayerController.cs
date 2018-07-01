@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
         _rb2d = GetComponent<Rigidbody2D>();
         _element = GetComponent<Element>();
         _inductionRange = GetComponent<CircleCollider2D>();
-//        _inductionParticle = transform.Find("InductionParticle").GetComponent<ParticleSystem>();
+        _inductionParticle = transform.Find("InductionParticle").GetComponent<ParticleSystem>();
 //        sounds = GameObject.Find("Gm");
     }
 
