@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198726683353359068}
   - component: {fileID: 199351387771869602}
   m_Layer: 0
-  m_Name: InductionParticle
+  m_Name: InductionParticleOUT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
