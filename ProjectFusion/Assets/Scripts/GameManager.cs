@@ -43,9 +43,20 @@ public class GameManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (Input.GetKeyDown(KeyCode.Return) && gameOver)
+        if (Input.GetKeyDown(KeyCode.Return) && gameOver) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        
+            Time.timeScale = 1;
+        } else if (Input.GetKeyDown(KeyCode.Escape)) {
+            if (Time.timeScale > 0) {
+                Time.timeScale = 0;
+                _hud.transform.Find("Pause").gameObject.SetActive(true);
+            }
+            else {
+                Time.timeScale = 1;
+                _hud.transform.Find("Pause").gameObject.SetActive(false);
+            }
+        }
+
         /* Debug Inputs */
         if (Input.GetKeyDown(KeyCode.T))
             TakeDamage();
