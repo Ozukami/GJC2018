@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
     private AudioSource audio;
+    private AudioSource[] audioSources;
 
     public AudioClip[] audios;
     public static SoundManager soundMan = null;
@@ -22,7 +23,7 @@ public class SoundManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         audio = GetComponent<AudioSource>();
-
+        audioSources = GetComponents<AudioSource>();
     }
 
 	// Update is called once per frame
@@ -32,7 +33,8 @@ public class SoundManager : MonoBehaviour {
 
     public void PlaySound(int clip)
     {
-        audio.clip = audios[clip];
-        audio.Play();
+//        audio.clip = audios[clip];
+//        audio.Play();
+        audioSources[clip].Play();
     }
 }

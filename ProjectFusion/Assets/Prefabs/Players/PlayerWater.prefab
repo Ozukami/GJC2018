@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4019332019457284}
   - component: {fileID: 198892024476268612}
   - component: {fileID: 199600145066704674}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: InductionParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,9 +43,9 @@ GameObject:
   - component: {fileID: 95541876738500276}
   - component: {fileID: 58814442544074392}
   - component: {fileID: 114429246268791726}
-  m_Layer: 10
+  m_Layer: 21
   m_Name: PlayerWater
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

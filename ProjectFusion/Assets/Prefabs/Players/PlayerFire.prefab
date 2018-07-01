@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4925143565342698}
   - component: {fileID: 198147421270784952}
   - component: {fileID: 199026435946117626}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: InductionParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,9 +43,9 @@ GameObject:
   - component: {fileID: 95207818999009300}
   - component: {fileID: 58494192482825230}
   - component: {fileID: 114183452233918268}
-  m_Layer: 10
+  m_Layer: 20
   m_Name: PlayerFire
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1422501377836012}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1

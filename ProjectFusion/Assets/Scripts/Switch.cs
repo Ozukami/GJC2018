@@ -34,4 +34,14 @@ public class Switch : MonoBehaviour
             door.GetComponent<Door>().Close();
         }
     }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Player") && other is BoxCollider2D) {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                ActivateSwitch();
+            }
+        }
+    }
 }

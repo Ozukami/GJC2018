@@ -111,6 +111,7 @@ public class GameManager : MonoBehaviour {
             gameOver = true;
             _hud.transform.Find("GameOver").gameObject.SetActive(true);
         }
+        SoundManager.soundMan.PlaySound(0);
     }
 
     public void Heal () {

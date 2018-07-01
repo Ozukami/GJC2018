@@ -26,9 +26,9 @@ GameObject:
   - component: {fileID: 95493128476869086}
   - component: {fileID: 58507060567148156}
   - component: {fileID: 114832208269498898}
-  m_Layer: 10
+  m_Layer: 19
   m_Name: PlayerEarth 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 4978392100261952}
   - component: {fileID: 198597842095012606}
   - component: {fileID: 199797233993110202}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: InductionParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

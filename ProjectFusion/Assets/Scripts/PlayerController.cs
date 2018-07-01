@@ -148,13 +148,14 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.CompareTag("Switch"))
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                other.GetComponent<Switch>().ActivateSwitch();
-            }
-        }
+//        if (other.CompareTag("Switch"))
+//        {
+//            if (Input.GetKeyDown(KeyCode.E))
+//            {
+//                Debug.Log("Test" + name);
+//                other.GetComponent<Switch>().ActivateSwitch();
+//            }
+//        }
     }
 
     public void ChangeAnimatorController(ElementType elem)
