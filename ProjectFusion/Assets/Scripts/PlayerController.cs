@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private bool isDead = false;
-
+    private GameObject sounds;
     private int life = 10;
     private int orientation;
 
@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _rb2d = GetComponent<Rigidbody2D>();
+        sounds = GameObject.Find("Gm");
     }
 
     // Update is called once per frame
@@ -118,5 +119,18 @@ public class PlayerController : MonoBehaviour
                 other.GetComponent<Switch>().ActivateSwitch();
             }
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag=="Fire" || collision.gameObject.tag == "Earth" || collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water")
+        {
+            if (collision.gameObject.tag != this.gameObject.tag)
+            {
+              
+                Destroy(gameObject);
+            }
+        }
+
     }
 }
