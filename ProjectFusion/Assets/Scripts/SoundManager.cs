@@ -2,16 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundEffects : MonoBehaviour {
+public class SoundManager : MonoBehaviour {
     private AudioSource audio;
 
     public AudioClip[] audios;
+    public static SoundManager soundMan = null;
+
+    void Awake()
+    {
+        if (soundMan == null)
+        {
+            soundMan = this;
+        }
+        else if (soundMan != this)
+        {
+            Destroy(gameObject);
+        }
+    }
     // Use this for initialization
     void Start () {
-
         audio = GetComponent<AudioSource>();
+
     }
-	
+
 	// Update is called once per frame
 	void Update () {
 		
@@ -19,7 +32,6 @@ public class SoundEffects : MonoBehaviour {
 
     public void PlaySound(int clip)
     {
-
         audio.clip = audios[clip];
         audio.Play();
     }
