@@ -25,14 +25,9 @@ public class PlayerProjectile : MonoBehaviour {
             SoundManager.soundMan.PlaySound(2);
         }
         if(other.gameObject.tag != "Player")
-        Destroy(this.gameObject);
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == this.gameObject.tag) {
-            Destroy(collision.gameObject);
-            SoundManager.soundMan.PlaySound(2);
+        {
+            Destroy(this.gameObject);
         }
-        Destroy(this.gameObject);
     }
+
 }

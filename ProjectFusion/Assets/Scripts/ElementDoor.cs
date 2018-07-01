@@ -28,7 +28,7 @@ public class ElementDoor : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        Debug.Log(col.gameObject.GetComponent<Element>().GetCurrentElem());
+
         //if (col.gameObject.CompareTag(_type.ToString()))
             //Physics2D
             if (col.gameObject.GetComponent<Element>().GetCurrentElem() == _type)

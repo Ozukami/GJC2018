@@ -38,13 +38,4 @@ public class Fireball : MonoBehaviour {
             Destroy(this.gameObject);
         }
     }
-
-    private void OnCollisionEnter2D(Collision collision)
-    {
-        if (collision.gameObject.tag != "Tower")
-        {
-            Destroy(this.gameObject);
-        }
-    }
-
 }
