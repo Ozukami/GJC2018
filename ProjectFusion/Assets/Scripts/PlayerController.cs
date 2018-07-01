@@ -26,6 +26,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]  
     private ParticleSystem _linkParticle;
 
+    [SerializeField] private float attackSpeed;
+    private float time;
+
+    [SerializeField] private GameObject[] projectiles;
 
     // Use this for initialization
     void Start()
@@ -38,8 +42,8 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
+        time += Time.deltaTime;
         _animator.SetBool("isActive", (transform.parent != null));
     }
 
@@ -68,9 +72,19 @@ public class PlayerController : MonoBehaviour
             _animator.SetFloat("axisY", axisY);
             transform.Translate(Vector3.right * axisX * Time.deltaTime * speed);
             transform.Translate(Vector3.up * axisY * Time.deltaTime * speed);
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                UseSpell();
+//            if (Input.GetKeyDown(KeyCode.Space))
+//            {
+//                UseSpell();
+//            }
+
+            if (Input.GetKeyDown(KeyCode.UpArrow)) {
+                UseSpell(Orientation.up);
+            } else if (Input.GetKeyDown(KeyCode.RightArrow)) {
+                UseSpell(Orientation.right);
+            } else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+                UseSpell(Orientation.down);
+            } else if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+                UseSpell(Orientation.left);
             }
         }
 
@@ -92,11 +106,13 @@ public class PlayerController : MonoBehaviour
             transform.parent = GameObject.Find("ActivePlayer").transform;
         }
         
-//        GameManager.Gm.UpdateElementsHUD();
+        GameManager.Gm.UpdateElementsHUD();
     }
 
-    private void UseSpell()
+    private void UseSpell(Orientation orientation)
     {
+        if (time < attackSpeed) return;
+        time = 0;
         _inductionParticle.Play();
         _inductionRange.enabled = true;
         Collider2D[] results = new Collider2D[10];
@@ -122,6 +138,9 @@ public class PlayerController : MonoBehaviour
         }
 
         _inductionRange.enabled = false;
+        GameObject newProj = Instantiate(projectiles[(int)_element.GetCurrentElem()], transform.position, Quaternion.identity);
+        newProj.GetComponent<PlayerProjectile>().VelX = (orientation.Equals(Orientation.right)) ? 1 : (orientation.Equals(Orientation.left)) ? -1 : 0;
+        newProj.GetComponent<PlayerProjectile>().VelY = (orientation.Equals(Orientation.up)) ? 1 : (orientation.Equals(Orientation.down)) ? -1 : 0;
 
         SoundManager.soundMan.PlaySound(2);
     }
