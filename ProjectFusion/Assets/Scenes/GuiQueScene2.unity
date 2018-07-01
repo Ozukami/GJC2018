@@ -494,7 +494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20291846}
   - component: {fileID: 20291845}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -720,7 +720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 33890133}
   - component: {fileID: 33890134}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1092,7 +1092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59332043}
   - component: {fileID: 59332042}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1168,7 +1168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61372927}
   - component: {fileID: 61372928}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 72496535}
   - component: {fileID: 72496536}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2307,7 +2307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110737938}
   - component: {fileID: 110737937}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2383,7 +2383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 115160067}
   - component: {fileID: 115160068}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2755,7 +2755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 134047715}
   - component: {fileID: 134047716}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4515,7 +4515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 142355343}
   - component: {fileID: 142355344}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4726,80 +4726,6 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &163254350
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 163254351}
-  - component: {fileID: 163254352}
-  m_Layer: 8
-  m_Name: New Sprite (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &163254351
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 163254350}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9, y: -0.225, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &163254352
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 163254350}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300240, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5028,80 +4954,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &173857741
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 173857742}
-  - component: {fileID: 173857743}
-  m_Layer: 8
-  m_Name: New Sprite (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &173857742
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 173857741}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.225, y: 0.15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!212 &173857743
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 173857741}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 81399ed52757d2d40b9f57793475cf8b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.21}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &173981089
 GameObject:
   m_ObjectHideFlags: 0
@@ -5259,7 +5111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 181145120}
   - component: {fileID: 181145121}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5407,7 +5259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187169460}
   - component: {fileID: 187169461}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5629,7 +5481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 205848211}
   - component: {fileID: 205848210}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5797,7 +5649,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1110205642}
-  m_RootOrder: 13
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &207585451
 SpriteRenderer:
@@ -5853,7 +5705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209046623}
   - component: {fileID: 209046622}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5920,80 +5772,6 @@ Transform:
   m_Father: {fileID: 2005383015}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!1 &216800119
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 216800120}
-  - component: {fileID: 216800121}
-  m_Layer: 8
-  m_Name: New Sprite (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &216800120
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 216800119}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.2, y: -1.425, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &216800121
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 216800119}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 81399ed52757d2d40b9f57793475cf8b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.21}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &225110664
 GameObject:
   m_ObjectHideFlags: 0
@@ -6290,80 +6068,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &243354424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 243354425}
-  - component: {fileID: 243354426}
-  m_Layer: 8
-  m_Name: New Sprite (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &243354425
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 243354424}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.2, y: -1.275, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &243354426
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 243354424}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 81399ed52757d2d40b9f57793475cf8b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.21}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &246790661
 GameObject:
   m_ObjectHideFlags: 0
@@ -6588,6 +6292,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &258966262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 258966263}
+  - component: {fileID: 258966264}
+  m_Layer: 0
+  m_Name: New Sprite (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &258966263
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 258966262}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: -0.75, y: -0.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 521562783}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!212 &258966264
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 258966262}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300446, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.15, y: 0.15}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &259171125
 GameObject:
   m_ObjectHideFlags: 0
@@ -6597,7 +6375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 259171126}
   - component: {fileID: 259171127}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6671,7 +6449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 267592581}
   - component: {fileID: 267592582}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6745,7 +6523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271494601}
   - component: {fileID: 271494602}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6967,7 +6745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 287323754}
   - component: {fileID: 287323753}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7034,11 +6812,57 @@ Transform:
   m_Father: {fileID: 2005383015}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &298733399 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1470041516}
+--- !u!1001 &297080893
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.094052255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314599321981464, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_Name
+      value: Switch (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093844775933730, guid: ae0853da0d6e8904d94b3096a5a7db11,
+        type: 2}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 1061749561}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &300537662
 GameObject:
   m_ObjectHideFlags: 0
@@ -7122,7 +6946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 301847219}
   - component: {fileID: 301847220}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7344,7 +7168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311249378}
   - component: {fileID: 311249379}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8010,7 +7834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 336842773}
   - component: {fileID: 336842774}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8149,6 +7973,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &339026903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 339026904}
+  - component: {fileID: 339026905}
+  m_Layer: 17
+  m_Name: jami_jamo_lava_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &339026904
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 339026903}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.002, y: -0.002, z: -0.03515625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 771270045}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &339026905
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 339026903}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300002, guid: c357721de8df84641981c6d876a8565e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.17, y: 0.17}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &341610522
 GameObject:
   m_ObjectHideFlags: 0
@@ -8195,7 +8093,7 @@ Transform:
   - {fileID: 137006069}
   - {fileID: 81495779}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347884394
 GameObject:
@@ -10203,7 +10101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354491833}
   - component: {fileID: 354491834}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10277,7 +10175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 359125741}
   - component: {fileID: 359125740}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10562,6 +10460,80 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &386640450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 386640451}
+  - component: {fileID: 386640452}
+  m_Layer: 8
+  m_Name: New Sprite (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &386640451
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 386640450}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.75, y: -0.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 868187156}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &386640452
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 386640450}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300006, guid: c357721de8df84641981c6d876a8565e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -10922,6 +10894,67 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &412760378
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810676665260540, guid: 11760140a2bfb7340b48fc33e5e1fb88,
+        type: 2}
+      propertyPath: ballRight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810676665260540, guid: 11760140a2bfb7340b48fc33e5e1fb88,
+        type: 2}
+      propertyPath: ballDown
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810676665260540, guid: 11760140a2bfb7340b48fc33e5e1fb88,
+        type: 2}
+      propertyPath: fireRate
+      value: 1.3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &416253957
 GameObject:
   m_ObjectHideFlags: 0
@@ -11171,7 +11204,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1729882483}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &439053468
 SpriteRenderer:
@@ -11449,7 +11482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452031161}
   - component: {fileID: 452031160}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11541,9 +11574,9 @@ Transform:
   m_LocalPosition: {x: 0, y: -0.3, z: -10}
   m_LocalScale: {x: 0.9587032, y: 0.95870346, z: 0.95870346}
   m_Children:
-  - {fileID: 1902558230}
+  - {fileID: 1331104933}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &459617690
 GameObject:
@@ -12076,7 +12109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480466029}
   - component: {fileID: 480466030}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12150,7 +12183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487054590}
   - component: {fileID: 487054591}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12687,9 +12720,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 521562782}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.29223025}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1029840126}
+  - {fileID: 1556844378}
+  - {fileID: 258966263}
   m_Father: {fileID: 1928982146}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15968,7 +16004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562231060}
   - component: {fileID: 562231059}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16044,7 +16080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 564955305}
   - component: {fileID: 564955304}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17558,7 +17594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578615639}
   - component: {fileID: 578615640}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17780,7 +17816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 593275358}
   - component: {fileID: 593275359}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17794,7 +17830,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 593275357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.002, y: -0.002, z: -0.03515625}
+  m_LocalPosition: {x: 0, y: -0.029, z: -0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1594798399}
@@ -17928,7 +17964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 605755815}
   - component: {fileID: 605755816}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18002,7 +18038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 607113497}
   - component: {fileID: 607113498}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18076,7 +18112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608926191}
   - component: {fileID: 608926192}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18522,7 +18558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638916280}
   - component: {fileID: 638916281}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18670,7 +18706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647422398}
   - component: {fileID: 647422397}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18729,7 +18765,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 647422396}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.982, y: -0.381, z: -0.25}
+  m_LocalPosition: {x: 0.976, y: -0.397, z: -0.241}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1055602660}
@@ -18894,7 +18930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664223324}
   - component: {fileID: 664223325}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19000,8 +19036,78 @@ Transform:
   - {fileID: 347884395}
   - {fileID: 1599890600}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &669060477
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.292
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1970733968448900, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_Name
+      value: TowerEarth (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510528128927510, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810676665260540, guid: 11760140a2bfb7340b48fc33e5e1fb88,
+        type: 2}
+      propertyPath: ballRight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810676665260540, guid: 11760140a2bfb7340b48fc33e5e1fb88,
+        type: 2}
+      propertyPath: ballUp
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810676665260540, guid: 11760140a2bfb7340b48fc33e5e1fb88,
+        type: 2}
+      propertyPath: ballLeft
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114810676665260540, guid: 11760140a2bfb7340b48fc33e5e1fb88,
+        type: 2}
+      propertyPath: fireRate
+      value: 1.8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 11760140a2bfb7340b48fc33e5e1fb88, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &673594726
 GameObject:
   m_ObjectHideFlags: 0
@@ -19011,7 +19117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673594728}
   - component: {fileID: 673594727}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19317,7 +19423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 685635395}
   - component: {fileID: 685635396}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19465,7 +19571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 692146062}
   - component: {fileID: 692146061}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19943,7 +20049,7 @@ Transform:
   - {fileID: 1089396262}
   - {fileID: 1489290260}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &716777966
 GameObject:
@@ -21315,8 +21421,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: 3, y: -3, z: 0}
     second:
-      m_TileIndex: 10
-      m_TileSpriteIndex: 10
+      m_TileIndex: 4
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -21324,8 +21430,17 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: 4, y: -3, z: 0}
     second:
-      m_TileIndex: 13
-      m_TileSpriteIndex: 4
+      m_TileIndex: 6
+      m_TileSpriteIndex: 8
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 5, y: -3, z: 0}
+    second:
+      m_TileIndex: 11
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -21394,6 +21509,42 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: 3, y: -2, z: 0}
+    second:
+      m_TileIndex: 12
+      m_TileSpriteIndex: 18
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 4, y: -2, z: 0}
+    second:
+      m_TileIndex: 10
+      m_TileSpriteIndex: 10
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 5, y: -2, z: 0}
+    second:
+      m_TileIndex: 8
+      m_TileSpriteIndex: 35
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 6, y: -2, z: 0}
+    second:
+      m_TileIndex: 11
+      m_TileSpriteIndex: 19
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: 13, y: -2, z: 0}
     second:
       m_TileIndex: 0
@@ -21416,6 +21567,24 @@ Tilemap:
     second:
       m_TileIndex: 23
       m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 5, y: -1, z: 0}
+    second:
+      m_TileIndex: 12
+      m_TileSpriteIndex: 18
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 6, y: -1, z: 0}
+    second:
+      m_TileIndex: 13
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -21854,23 +22023,23 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 777b3bc2c8bb4dd4eaaa2fe8981d1710, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 7d8cf1cb445e7a546af8bd798dbfdcd1, type: 2}
-  - m_RefCount: 6
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 05f81fa1c045e3244903c241669524f0, type: 2}
   - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: 5e1c2f2748662cf4ca6e119bc44c10ba, type: 2}
-  - m_RefCount: 5
+  - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 2d58cdaf5321c924cbd907bf4637d087, type: 2}
   - m_RefCount: 16
     m_Data: {fileID: 11400000, guid: c96100ee80c14da46badd2aae3d9dbdd, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 8f12cc5e94f81954ea9647e9ebf1168e, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 898c4024b4fd7524ebde5c7dced584d4, type: 2}
   - m_RefCount: 27
     m_Data: {fileID: 11400000, guid: d41b210d36844a24a8c0fc1289e7a950, type: 2}
-  - m_RefCount: 3
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: ebdd4b74f1e54384e9fe6c0962ed7dbd, type: 2}
-  - m_RefCount: 8
+  - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: 10f676c82384985469b82d863d336555, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 6beee143940e153449fd69cf6a0dd69d, type: 2}
@@ -21943,7 +22112,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 16
     m_Data: {fileID: 21300060, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  - m_RefCount: 5
+  - m_RefCount: 6
     m_Data: {fileID: 21300010, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -21951,7 +22120,7 @@ Tilemap:
     m_Data: {fileID: 21300156, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 6
+  - m_RefCount: 7
     m_Data: {fileID: 21300158, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 21300154, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
@@ -21963,9 +22132,9 @@ Tilemap:
     m_Data: {fileID: 21300054, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   - m_RefCount: 12
     m_Data: {fileID: 21300098, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  - m_RefCount: 8
+  - m_RefCount: 10
     m_Data: {fileID: 21300016, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 5
     m_Data: {fileID: 21300056, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300232, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
@@ -21997,7 +22166,7 @@ Tilemap:
     m_Data: {fileID: 21300390, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300052, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300008, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300204, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
@@ -22008,7 +22177,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300420, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 160
+  - m_RefCount: 167
     m_Data:
       e00: 1
       e01: 0
@@ -22027,7 +22196,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 160
+  - m_RefCount: 167
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22110,7 +22279,19 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.3831678, y: -0.38267362}
+    - - {x: 0.82753164, y: -0.41778454}
+      - {x: 0.8288259, y: -0.27632773}
+      - {x: 1.0469482, y: -0.27271068}
+      - {x: 1.0410025, y: -0.118475944}
+      - {x: 1.1449575, y: -0.10912353}
+      - {x: 1.1202532, y: 0.023490176}
+      - {x: 1.0146668, y: -0.062141173}
+      - {x: 0.84515136, y: -0.062540606}
+      - {x: 0.82706535, y: -0.08027626}
+      - {x: 0.6706512, y: -0.085112214}
+      - {x: 0.53504753, y: -0.23375261}
+      - {x: 0.5289638, y: -0.3637645}
+      - {x: 0.3831678, y: -0.38267362}
       - {x: 0.38155365, y: -0.66777617}
       - {x: 0.22757167, y: -0.67113155}
       - {x: 0.22881097, y: -0.9649024}
@@ -22128,7 +22309,7 @@ PolygonCollider2D:
       - {x: 0.8342091, y: -0.6666881}
       - {x: 0.7006302, y: -0.6664674}
       - {x: 0.699089, y: -0.5868742}
-      - {x: 0.6792368, y: -0.37940922}
+      - {x: 0.6911088, y: -0.41977435}
 --- !u!1 &740640274
 GameObject:
   m_ObjectHideFlags: 0
@@ -22986,7 +23167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746411785}
   - component: {fileID: 746411786}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23127,80 +23308,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
---- !u!1 &753898359
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 753898360}
-  - component: {fileID: 753898361}
-  m_Layer: 8
-  m_Name: New Sprite (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &753898360
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 753898359}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 868187156}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &753898361
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 753898359}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300006, guid: c357721de8df84641981c6d876a8565e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &754347446
 GameObject:
   m_ObjectHideFlags: 0
@@ -23284,7 +23391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 757609133}
   - component: {fileID: 757609134}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23432,7 +23539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765604548}
   - component: {fileID: 765604547}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23643,6 +23750,82 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &771270044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 771270045}
+  - component: {fileID: 771270046}
+  m_Layer: 17
+  m_Name: WaterTile (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771270045
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771270044}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.827, y: -1.61, z: -0.259}
+  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 1}
+  m_Children:
+  - {fileID: 339026904}
+  - {fileID: 1338766166}
+  m_Father: {fileID: 2005383015}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!212 &771270046
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771270044}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300004, guid: c357721de8df84641981c6d876a8565e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -23952,7 +24135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812872045}
   - component: {fileID: 812872044}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24019,80 +24202,103 @@ Transform:
   m_Father: {fileID: 2005383015}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &829622207
-GameObject:
+--- !u!1001 &840660227
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 829622208}
-  - component: {fileID: 829622209}
-  m_Layer: 8
-  m_Name: New Sprite (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &829622208
-Transform:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.983
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.395
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781509716710980, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+      propertyPath: m_Name
+      value: PlayerEarth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &842476775
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 829622207}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.75, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1729882483}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &829622209
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 829622207}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300006, guid: c357721de8df84641981c6d876a8565e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.942
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314599321981464, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_Name
+      value: Switch (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093844775933730, guid: ae0853da0d6e8904d94b3096a5a7db11,
+        type: 2}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 855200483}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &846757463
 GameObject:
   m_ObjectHideFlags: 0
@@ -24315,80 +24521,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &856084712
+--- !u!1 &855200483 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 856084713}
-  - component: {fileID: 856084714}
-  m_Layer: 8
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &856084713
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 856084712}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.15, y: 0.15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 868187156}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!212 &856084714
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 856084712}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: 81399ed52757d2d40b9f57793475cf8b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.21}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_PrefabParentObject: {fileID: 1756839016815058, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b,
+    type: 2}
+  m_PrefabInternal: {fileID: 893721323}
 --- !u!1 &856655166
 GameObject:
   m_ObjectHideFlags: 0
@@ -24398,7 +24535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856655167}
   - component: {fileID: 856655168}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24546,7 +24683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863401351}
   - component: {fileID: 863401350}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24641,12 +24778,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 703305619}
-  - {fileID: 753898360}
   - {fileID: 931792021}
   - {fileID: 1288355997}
-  - {fileID: 856084713}
+  - {fileID: 386640451}
   m_Father: {fileID: 1110205642}
-  m_RootOrder: 14
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &868187157
 SpriteRenderer:
@@ -24776,7 +24912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 876220480}
   - component: {fileID: 876220479}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25425,35 +25561,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &882410515
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 882410516}
-  m_Layer: 0
-  m_Name: Tower
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &882410516
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 882410515}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.987, y: -1.405, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 298733399}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &893085813
 GameObject:
   m_ObjectHideFlags: 0
@@ -25528,6 +25635,48 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &893721323
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.208
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.017720519
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &897910989
 GameObject:
   m_ObjectHideFlags: 0
@@ -25537,7 +25686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897910990}
   - component: {fileID: 897910991}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25835,7 +25984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 906613127}
   - component: {fileID: 906613128}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26150,7 +26299,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925985750
 GameObject:
@@ -28173,7 +28322,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 868187156}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &931792022
 SpriteRenderer:
@@ -28664,80 +28813,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &961502896
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 961502897}
-  - component: {fileID: 961502898}
-  m_Layer: 8
-  m_Name: New Sprite (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &961502897
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 961502896}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.875, y: -0.075, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &961502898
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 961502896}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300240, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.15}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &969432695
 GameObject:
   m_ObjectHideFlags: 0
@@ -28821,7 +28896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981611754}
   - component: {fileID: 981611753}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28971,7 +29046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1007694884}
   - component: {fileID: 1007694885}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29332,80 +29407,60 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1022144322
-GameObject:
+--- !u!1001 &1023259213
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1022144323}
-  - component: {fileID: 1022144324}
-  m_Layer: 8
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1022144323
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1022144322}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.15, y: 0.15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1729882483}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!212 &1022144324
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1022144322}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: 81399ed52757d2d40b9f57793475cf8b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.21}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 454362658}
+    m_Modifications:
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.83028823
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.1108754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 10.379313
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.0430757
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.0430754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0430754
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1024478200
 GameObject:
   m_ObjectHideFlags: 0
@@ -29554,6 +29609,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1029840125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1029840126}
+  - component: {fileID: 1029840127}
+  m_Layer: 0
+  m_Name: New Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1029840126
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029840125}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: -0.6, y: -0.975, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 521562783}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!212 &1029840127
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029840125}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300446, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.15, y: 0.15}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1038903690
 GameObject:
   m_ObjectHideFlags: 0
@@ -29563,7 +29692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1038903692}
   - component: {fileID: 1038903691}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29780,48 +29909,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1053971158
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1.129
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.568
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4443637516639738, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 780e4bc0919b1284698521bf4e26ae96, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1055602659
 GameObject:
   m_ObjectHideFlags: 0
@@ -29831,7 +29918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1055602660}
   - component: {fileID: 1055602661}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29970,6 +30057,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1061749560
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.297
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.017720519
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822827883333176, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756839016815058, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+      propertyPath: m_Name
+      value: Door (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1061749561 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1756839016815058, guid: 0d3c8ca7ac2fdfd41aaadc4a247f0f7b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1061749560}
 --- !u!1 &1067599056
 GameObject:
   m_ObjectHideFlags: 0
@@ -30204,7 +30342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074364320}
   - component: {fileID: 1074364321}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30352,7 +30490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081430049}
   - component: {fileID: 1081430050}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32489,19 +32627,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1197756628}
   - {fileID: 1240875820}
-  - {fileID: 243354425}
-  - {fileID: 216800120}
-  - {fileID: 1326802684}
-  - {fileID: 1988093927}
-  - {fileID: 1620856445}
-  - {fileID: 961502897}
-  - {fileID: 163254351}
   - {fileID: 2005383015}
   - {fileID: 1729882483}
-  - {fileID: 2076482170}
-  - {fileID: 173857742}
   - {fileID: 207585450}
   - {fileID: 868187156}
   m_Father: {fileID: 1928982146}
@@ -32635,7 +32763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1116223843}
   - component: {fileID: 1116223844}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32951,7 +33079,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1729882483}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1136446464
 SpriteRenderer:
@@ -33784,48 +33912,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1155602483
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.324
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.008
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1155933171
 GameObject:
   m_ObjectHideFlags: 0
@@ -34059,7 +34145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164818681}
   - component: {fileID: 1164818682}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34429,7 +34515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186472258}
   - component: {fileID: 1186472257}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34582,7 +34668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1189162869}
   - component: {fileID: 1189162870}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34943,122 +35029,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1195215769
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 454362658}
-    m_Modifications:
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.056
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.498
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.049316406
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1197756627
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1197756628}
-  - component: {fileID: 1197756629}
-  m_Layer: 8
-  m_Name: BlueDoor (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1197756628
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1197756627}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.66, y: -1.11, z: 0}
-  m_LocalScale: {x: 1.8, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1197756629
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1197756627}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300012, guid: 285933d68545f564bbe02bffa20cbad0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1202581580
 GameObject:
   m_ObjectHideFlags: 0
@@ -35131,7 +35101,7 @@ Transform:
   m_LocalScale: {x: 100, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1204152893
 GameObject:
@@ -37411,7 +37381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240522854}
   - component: {fileID: 1240522855}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37503,7 +37473,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1110205642}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1240875821
 SpriteRenderer:
@@ -37559,7 +37529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242345604}
   - component: {fileID: 1242345603}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41726,48 +41696,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1279662805
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.456
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.013
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1286515587
 GameObject:
   m_ObjectHideFlags: 0
@@ -41869,7 +41797,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 868187156}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1288355998
 SpriteRenderer:
@@ -42748,7 +42676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1320247791}
   - component: {fileID: 1320247790}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42900,7 +42828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1326276547}
   - component: {fileID: 1326276548}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42961,80 +42889,6 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &1326802683
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1326802684}
-  - component: {fileID: 1326802685}
-  m_Layer: 8
-  m_Name: New Sprite (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1326802684
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1326802683}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.525, y: -0.975, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1326802685
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1326802683}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300240, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -43229,8 +43083,87 @@ Transform:
   - {fileID: 2072886862}
   - {fileID: 2137806110}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1331104933 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47,
+    type: 2}
+  m_PrefabInternal: {fileID: 1023259213}
+--- !u!1 &1338766165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1338766166}
+  - component: {fileID: 1338766167}
+  m_Layer: 17
+  m_Name: jami_jamo_lava_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1338766166
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338766165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.004, z: -0.03515625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 771270045}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1338766167
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338766165}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c357721de8df84641981c6d876a8565e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1339960890
 GameObject:
   m_ObjectHideFlags: 0
@@ -43314,7 +43247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341265957}
   - component: {fileID: 1341265956}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44279,48 +44212,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1409978142
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.63360095
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.4126272
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.049316406
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 10d1c8cb5754e6d42ad8cff814dffa47, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1413166462
 GameObject:
   m_ObjectHideFlags: 0
@@ -44330,7 +44221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413166463}
   - component: {fileID: 1413166464}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44404,7 +44295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425432661}
   - component: {fileID: 1425432662}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44478,7 +44369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426518380}
   - component: {fileID: 1426518381}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44626,7 +44517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1433278535}
   - component: {fileID: 1433278536}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44848,7 +44739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457344553}
   - component: {fileID: 1457344554}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44987,60 +44878,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1470041516
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 882410516}
-    m_Modifications:
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1471057449
 GameObject:
   m_ObjectHideFlags: 0
@@ -45124,7 +44961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1473087467}
   - component: {fileID: 1473087468}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45800,7 +45637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496385531}
   - component: {fileID: 1496385532}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45939,48 +45776,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1505945537
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.7254143
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.2090366
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1518678125
 GameObject:
   m_ObjectHideFlags: 0
@@ -46286,7 +46081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1539193733}
   - component: {fileID: 1539193734}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46436,7 +46231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547616233}
   - component: {fileID: 1547616232}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46799,6 +46594,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1556844377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1556844378}
+  - component: {fileID: 1556844379}
+  m_Layer: 0
+  m_Name: New Sprite (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1556844378
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556844377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 521562783}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1556844379
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556844377}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
 --- !u!1 &1557789835
 GameObject:
   m_ObjectHideFlags: 0
@@ -47104,7 +46973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580340401}
   - component: {fileID: 1580340400}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47180,7 +47049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1594798399}
   - component: {fileID: 1594798398}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47970,6 +47839,48 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1605356066
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.618
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.388
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826658958101632, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0e7097107936f8e43a1c827014e2aa4e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1609140622
 GameObject:
   m_ObjectHideFlags: 0
@@ -48203,7 +48114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613717617}
   - component: {fileID: 1613717618}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48640,80 +48551,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &1620856444
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1620856445}
-  - component: {fileID: 1620856446}
-  m_Layer: 8
-  m_Name: New Sprite (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1620856445
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1620856444}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.725, y: -1.425, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1620856446
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1620856444}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300240, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.15}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1630281939
 GameObject:
   m_ObjectHideFlags: 0
@@ -48945,7 +48782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640186123}
   - component: {fileID: 1640186124}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49010,6 +48847,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1648378376
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314599321981464, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_Name
+      value: Switch (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093844775933730, guid: ae0853da0d6e8904d94b3096a5a7db11,
+        type: 2}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 855200483}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1648812317
 GameObject:
   m_ObjectHideFlags: 0
@@ -49019,7 +48907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648812318}
   - component: {fileID: 1648812319}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49692,7 +49580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673182330}
   - component: {fileID: 1673182331}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49706,7 +49594,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1673182329}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.004, z: -0.03515625}
+  m_LocalPosition: {x: -0.005, y: -0.029, z: -0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 647422398}
@@ -49766,7 +49654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1675270590}
   - component: {fileID: 1675270591}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49914,7 +49802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683434359}
   - component: {fileID: 1683434360}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50062,7 +49950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700777914}
   - component: {fileID: 1700777915}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50210,7 +50098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705688797}
   - component: {fileID: 1705688798}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50358,7 +50246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711065330}
   - component: {fileID: 1711065331}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50506,7 +50394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1713102576}
   - component: {fileID: 1713102577}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50746,12 +50634,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1113401853}
-  - {fileID: 829622208}
   - {fileID: 439053467}
   - {fileID: 1136446463}
-  - {fileID: 1022144323}
   m_Father: {fileID: 1110205642}
-  m_RootOrder: 10
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1729882484
 SpriteRenderer:
@@ -51255,7 +51141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1758708918}
   - component: {fileID: 1758708919}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51616,6 +51502,48 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1768065555
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.436
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291168167154562, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a89e12ef271e1a8419cbc77af7e49daf, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1777211468
 GameObject:
   m_ObjectHideFlags: 0
@@ -52136,6 +52064,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1857504908
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.212
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314599321981464, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_Name
+      value: Switch (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093844775933730, guid: ae0853da0d6e8904d94b3096a5a7db11,
+        type: 2}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 855200483}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1863817617
 GameObject:
   m_ObjectHideFlags: 0
@@ -52262,7 +52241,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.7342623
+  orthographic size: 1.2194346
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -52285,7 +52264,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1864914473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: -10}
+  m_LocalPosition: {x: 0.46, y: -0.6, z: -10}
   m_LocalScale: {x: 0.9587032, y: 0.95870346, z: 0.95870346}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52524,7 +52503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885289946}
   - component: {fileID: 1885289947}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52672,7 +52651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895846035}
   - component: {fileID: 1895846036}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52885,11 +52864,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!4 &1902558230 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4387798584190430, guid: 10d1c8cb5754e6d42ad8cff814dffa47,
-    type: 2}
-  m_PrefabInternal: {fileID: 1195215769}
 --- !u!1 &1903195529
 GameObject:
   m_ObjectHideFlags: 0
@@ -52899,7 +52873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1903195530}
   - component: {fileID: 1903195531}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52966,6 +52940,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1904559111
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.832
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.523
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314599321981464, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_Name
+      value: Switch (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093844775933730, guid: ae0853da0d6e8904d94b3096a5a7db11,
+        type: 2}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 1061749561}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1912882700
 GameObject:
   m_ObjectHideFlags: 0
@@ -53204,7 +53229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1920836100}
   - component: {fileID: 1920836101}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53318,7 +53343,7 @@ Transform:
   - {fileID: 194379484}
   - {fileID: 1139652939}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1934241566
 GameObject:
@@ -53405,7 +53430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1937387768}
   - component: {fileID: 1937387767}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53555,7 +53580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939908955}
   - component: {fileID: 1939908956}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53703,7 +53728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1946518990}
   - component: {fileID: 1946518991}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53851,7 +53876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1958674899}
   - component: {fileID: 1958674900}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54360,80 +54385,6 @@ Transform:
   m_Father: {fileID: 2072886862}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1988093926
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1988093927}
-  - component: {fileID: 1988093928}
-  m_Layer: 8
-  m_Name: New Sprite (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1988093927
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1988093926}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9, y: 0.075, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1988093928
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1988093926}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300240, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  m_Color: {r: 0.94792527, g: 1, b: 0.2028302, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.15}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1989073707
 GameObject:
   m_ObjectHideFlags: 0
@@ -54669,7 +54620,7 @@ GameObject:
   - component: {fileID: 2005383017}
   - component: {fileID: 2005383016}
   - component: {fileID: 2005383020}
-  m_Layer: 8
+  m_Layer: 17
   m_Name: River
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54718,8 +54669,9 @@ Transform:
   - {fileID: 142355343}
   - {fileID: 608926191}
   - {fileID: 1903195530}
+  - {fileID: 771270045}
   m_Father: {fileID: 1110205642}
-  m_RootOrder: 9
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2005383016
 BoxCollider2D:
@@ -57151,6 +57103,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &2052988863
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.872
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.046
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4738335154671086, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1314599321981464, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+      propertyPath: m_Name
+      value: Switch (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093844775933730, guid: ae0853da0d6e8904d94b3096a5a7db11,
+        type: 2}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 855200483}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ae0853da0d6e8904d94b3096a5a7db11, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2053343554
 GameObject:
   m_ObjectHideFlags: 0
@@ -57684,80 +57687,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &2076482169
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2076482170}
-  - component: {fileID: 2076482171}
-  m_Layer: 8
-  m_Name: New Sprite (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2076482170
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076482169}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.875, y: -0.675, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1110205642}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2076482171
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076482169}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 281392765
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300240, guid: 8d6831807721c93449ed6e269c6c1ad0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.15}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2077307348
 GameObject:
   m_ObjectHideFlags: 0
@@ -57767,7 +57696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2077307349}
   - component: {fileID: 2077307350}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58361,7 +58290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2108431819}
   - component: {fileID: 2108431820}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58509,7 +58438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2113003481}
   - component: {fileID: 2113003482}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58659,7 +58588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2114688794}
   - component: {fileID: 2114688795}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58733,7 +58662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2117434851}
   - component: {fileID: 2117434850}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: WaterTile (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58883,7 +58812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133224309}
   - component: {fileID: 2133224310}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: jami_jamo_lava_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59246,7 +59175,7 @@ Transform:
   - {fileID: 740998825}
   - {fileID: 584141765}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2145122488
 GameObject:
