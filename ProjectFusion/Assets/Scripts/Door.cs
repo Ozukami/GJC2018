@@ -11,7 +11,7 @@ public class Door : MonoBehaviour
 
     void Start()
     {
-        _collider = GetComponent<BoxCollider2D>();
+        _collider = GetComponent<Collider2D>();
         _animator = GetComponent<Animator>();
     }
 

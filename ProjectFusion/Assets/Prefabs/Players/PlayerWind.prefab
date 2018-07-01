@@ -183,12 +183,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0ee821310b95242947a935c7feef3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.7
   animatorControllers:
   - {fileID: 22100000, guid: 93693a60c6c56994281866b36557925b, type: 2}
   - {fileID: 22100000, guid: c64757676d1644b4c83b1245230c5a8d, type: 2}
   - {fileID: 22100000, guid: 57cbeb559c8489f4d936706c61ef29ff, type: 2}
   - {fileID: 22100000, guid: 56957566c03c7ad48a81135d6eafb84a, type: 2}
+  _linkParticle: {fileID: 198837686483787738, guid: c5d6d01fb7d40a949b1477b45fb71fc1,
+    type: 2}
+  attackSpeed: 0.5
+  projectiles:
+  - {fileID: 1092734981936336, guid: 8a6dc67fae015f446b2fbf6c3fc2f1e5, type: 2}
+  - {fileID: 1999984885179164, guid: 10483151b94c9b049b92837905838c89, type: 2}
+  - {fileID: 1882810534707938, guid: 0b798279eb57e5a4f8a6048c4d1bf554, type: 2}
+  - {fileID: 1286628164454868, guid: 968bc24dcd183614d9599a961aa0d8fe, type: 2}
 --- !u!198 &198092657236977192
 ParticleSystem:
   m_ObjectHideFlags: 1

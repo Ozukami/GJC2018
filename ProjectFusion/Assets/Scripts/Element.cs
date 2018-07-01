@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ElementType {
+public enum ElementType
+{
     earth,
     fire,
     water,
     wind
 }
 
-public class Element : MonoBehaviour {
-
+public class Element : MonoBehaviour
+{
     private PlayerController pc;
     [SerializeField] private ElementType initialElem;
     private Dictionary<ElementType, int> elementValues;
@@ -22,7 +23,8 @@ public class Element : MonoBehaviour {
     [SerializeField] private float Water;
     [SerializeField] private float Wind;
 
-    private void Start () {
+    private void Start()
+    {
         pc = GetComponent<PlayerController>();
         elementValues = new Dictionary<ElementType, int>();
         elementValues.Add(ElementType.fire, 0);
@@ -33,7 +35,8 @@ public class Element : MonoBehaviour {
         currentElem = initialElem;
     }
 
-    private void Update () {
+    private void Update()
+    {
         Fire = elementValues[ElementType.fire];
         Earth = elementValues[ElementType.earth];
         Water = elementValues[ElementType.water];
@@ -41,30 +44,37 @@ public class Element : MonoBehaviour {
         pc.ChangeParticleColor(currentElem);
     }
 
-    public ElementType GetCurrentElem () {
+    public ElementType GetCurrentElem()
+    {
         return currentElem;
     }
 
-    public void Induction (ElementType elementType) {
+    public void Induction(ElementType elementType)
+    {
         DecreaseElem(elementType);
         IncreaseElem(elementType);
         GameManager.Gm.UpdateElementsHUD();
     }
 
-    private void IncreaseElem (ElementType elemType) {
+    private void IncreaseElem(ElementType elemType)
+    {
         elementValues[elemType] = Mathf.Min(100, elementValues[elemType] + 10);
-        if (elementValues[elemType] > 50) {
+        if (elementValues[elemType] > 50)
+        {
             currentElem = elemType;
             pc.ChangeAnimatorController(currentElem);
             pc.ChangeParticleColor(currentElem);
         }
     }
 
-    private void DecreaseElem (ElementType elemType) {
+    private void DecreaseElem(ElementType elemType)
+    {
         ElementType maxElem = currentElem;
         int maxValue = 0;
-        foreach (var elem in elementValues) {
-            if (!elem.Key.Equals(elemType) && elem.Value > maxValue) {
+        foreach (var elem in elementValues)
+        {
+            if (!elem.Key.Equals(elemType) && elem.Value > maxValue)
+            {
                 maxValue = elem.Value;
                 maxElem = elem.Key;
             }
@@ -77,5 +87,4 @@ public class Element : MonoBehaviour {
     {
         return elementValues;
     }
-    
 }
