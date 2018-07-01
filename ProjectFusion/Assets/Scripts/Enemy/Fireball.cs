@@ -28,11 +28,20 @@ public class Fireball : MonoBehaviour {
             string elementPlayer = cat.GetComponent<Element>().GetCurrentElem().ToString();
             if (elementPlayer != element)
             {
-                //GameManager.Gm.TakeDamage();
+                GameManager.Gm.TakeDamage();
                 SoundManager.soundMan.PlaySound(0);
             }
         }
-        if(!other.gameObject.CompareTag("Tower"))
+
+        if(other.gameObject.tag != "Tower")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision collision)
+    {
+        if (collision.gameObject.tag != "Tower")
         {
             Destroy(this.gameObject);
         }

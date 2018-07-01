@@ -19,6 +19,20 @@ public class PlayerProjectile : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D (Collider2D other) {
-        
+        if (other.gameObject.tag == this.gameObject.tag)
+        {
+            Destroy(other.gameObject);
+            SoundManager.soundMan.PlaySound(2);
+        }
+        if(other.gameObject.tag != "Player")
+        Destroy(this.gameObject);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == this.gameObject.tag) {
+            Destroy(collision.gameObject);
+            SoundManager.soundMan.PlaySound(2);
+        }
+        Destroy(this.gameObject);
     }
 }

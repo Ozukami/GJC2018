@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 114665869685118240}
   m_Layer: 0
   m_Name: EnemySprite
-  m_TagString: mob
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
