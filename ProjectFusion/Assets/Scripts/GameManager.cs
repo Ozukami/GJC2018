@@ -104,6 +104,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void TakeDamage () {
+        Debug.Log("Take dammage");
         if (life <= 0) return;
         _hud.transform.Find("Life").GetChild(--life).GetComponent<Image>().sprite = emptyHeart;
         if (life == 0) {
