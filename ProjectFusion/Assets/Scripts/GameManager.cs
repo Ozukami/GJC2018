@@ -4,6 +4,7 @@ using System.Net.NetworkInformation;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public enum GameStates {
     Intro,
@@ -17,6 +18,13 @@ public class GameManager : MonoBehaviour {
     public bool paused;
     private GameStates currentState;
     public static GameManager Gm = null;
+    
+    private int life = 5;
+    [SerializeField] private Sprite fullHeart;
+    [SerializeField] private Sprite emptyHeart;
+    private bool gameOver = false;
+
+    private GameObject _hud;
 
     void Awake () {
         if (Gm == null) {
@@ -30,10 +38,21 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         endRoom = GetComponentInChildren<BoxCollider2D>();
+        _hud = GameObject.Find("HUD");
     }
 
     // Update is called once per frame
     void Update () {
+        if (Input.GetKeyDown(KeyCode.Return) && gameOver)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+        /* Debug Inputs */
+        if (Input.GetKeyDown(KeyCode.T))
+            TakeDamage();
+        if (Input.GetKeyDown(KeyCode.H))
+            Heal();
+        if (Input.GetKeyDown(KeyCode.R))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public GameStates SetState (GameStates state, [CanBeNull] string scene) {
@@ -57,4 +76,20 @@ public class GameManager : MonoBehaviour {
 
         return currentState;
     }
+
+    public void TakeDamage () {
+        if (life <= 0) return;
+        _hud.transform.GetChild(0).GetChild(--life).GetComponent<Image>().sprite = emptyHeart;
+        if (life == 0) {
+            Time.timeScale = 0;
+            gameOver = true;
+            _hud.transform.Find("GameOver").gameObject.SetActive(true);
+        }
+    }
+
+    public void Heal () {
+        if (life >= 5) return;
+        _hud.transform.GetChild(0).GetChild(life++).GetComponent<Image>().sprite = fullHeart;
+    }
+    
 }
