@@ -7,6 +7,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AutoDestroy.cs" t="Include" />
+          <e p="Destructible.cs" t="Include" />
           <e p="Door.cs" t="Include" />
           <e p="Element.cs" t="Include" />
           <e p="ElementDoor.cs" t="Include" />
