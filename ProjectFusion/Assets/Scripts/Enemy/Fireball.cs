@@ -23,8 +23,17 @@ public class Fireball : MonoBehaviour {
     {
         if (other.gameObject.tag != "Tower")
         {
-
+            if (other.gameObject.tag == "Fire" || other.gameObject.tag == "Earth" ||
+                other.gameObject.tag == "Air" || other.gameObject.tag == "Water")
+            {
+                if (other.gameObject.tag != this.gameObject.tag)
+                {
+                    Destroy(other.gameObject);
+                    SoundManager.soundMan.PlaySound(0);
+                }
+            }
             Destroy(gameObject);
+            
         }
     }
 
