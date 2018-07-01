@@ -5,7 +5,7 @@ using UnityEngine;
 public class Patrol : MonoBehaviour {
 
     public GameObject[] patrolPoints;
-
+    public string element;
     public float moveSpeed;
     private int currentPoint;
     private Animator _animator;
@@ -84,5 +84,20 @@ public class Patrol : MonoBehaviour {
             axisY = 0;
         }
         old_pos = transform.position;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            GameObject cat = collision.gameObject;
+            string elementPlayer = cat.GetComponent<Element>().GetCurrentElem().ToString();
+            if(elementPlayer != element)
+            {
+                //GameManager.Gm.TakeDamage();
+                SoundManager.soundMan.PlaySound(0);
+            }
+
+        }
     }
 }

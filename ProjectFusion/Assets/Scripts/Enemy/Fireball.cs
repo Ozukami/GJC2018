@@ -6,6 +6,7 @@ public class Fireball : MonoBehaviour {
     public float fireSpeed;
     public float VelX;
     public float VelY;
+    public string element;
 
     // Use this for initialization
     void Start()
@@ -21,10 +22,19 @@ public class Fireball : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag != "Tower")
+        if (other.gameObject.CompareTag("Player"))
         {
-
-            Destroy(gameObject);
+            GameObject cat = other.gameObject;
+            string elementPlayer = cat.GetComponent<Element>().GetCurrentElem().ToString();
+            if (elementPlayer != element)
+            {
+                //GameManager.Gm.TakeDamage();
+                SoundManager.soundMan.PlaySound(0);
+            }
+        }
+        if(!other.gameObject.CompareTag("Tower"))
+        {
+            Destroy(this.gameObject);
         }
     }
 
