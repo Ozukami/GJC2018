@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public enum ElementType
@@ -62,6 +63,8 @@ public class Element : MonoBehaviour
         if (elementValues[elemType] > 50)
         {
             currentElem = elemType;
+            gameObject.layer = 19 + (int) elemType;
+            pc.transform.tag = elemType.ToString().ToLower();
             pc.ChangeAnimatorController(currentElem);
             pc.ChangeParticleColor(currentElem);
         }

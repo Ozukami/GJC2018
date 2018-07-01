@@ -103,7 +103,8 @@ public class PlayerController : MonoBehaviour
         _inductionRange.OverlapCollider(new ContactFilter2D(), results);
         foreach (var col in results)
         {
-            if (col && col.name != name && col.gameObject.layer == 10)
+            if (col && col.name != name && (col.gameObject.layer == 19 || col.gameObject.layer == 20
+                    || col.gameObject.layer == 21 || col.gameObject.layer == 22))
             {
                 Debug.Log(col.name);
                 col.GetComponent<Element>().Induction(_element.GetCurrentElem());

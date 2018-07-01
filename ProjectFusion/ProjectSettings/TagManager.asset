@@ -30,14 +30,14 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - EarthDoor
+  - FireDoor
+  - WaterDoor
+  - WindDoor
+  - EarthPlayer
+  - FirePlayer
+  - WaterPlayer
+  - WindPlayer
   - 
   - 
   - 
