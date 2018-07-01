@@ -747,17 +747,20 @@ Prefab:
         type: 2}
       propertyPath: ballDown
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1129033412250180, guid: 1b8d5841ebff4da4e94a54f4a4973bd3,
+        type: 2}
     - target: {fileID: 114703851914025644, guid: ea60305e28132fb4a83c0b538f32e131,
         type: 2}
       propertyPath: ballRight
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1471476507310008, guid: 1668ef67077080649871ecc8dfe32dbb,
+        type: 2}
     - target: {fileID: 114703851914025644, guid: ea60305e28132fb4a83c0b538f32e131,
         type: 2}
       propertyPath: ballLeft
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1695597375875278, guid: 3136c48a754a7374faf0c5ca6e9760a2,
+        type: 2}
     - target: {fileID: 114703851914025644, guid: ea60305e28132fb4a83c0b538f32e131,
         type: 2}
       propertyPath: ballUp
@@ -1554,15 +1557,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
       propertyPath: m_LocalRotation.w
@@ -1576,17 +1579,30 @@ Prefab:
         type: 2}
       propertyPath: ballUp
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1480467555660624, guid: 60983a389ab56254e8b0a90f7448e31d,
+        type: 2}
     - target: {fileID: 114872161381979834, guid: 02f4694f138ecbe47b90cf29a5b3563c,
         type: 2}
       propertyPath: ballRight
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1471476507310008, guid: 1749823e981115d4a941c9613a642a6f,
+        type: 2}
     - target: {fileID: 114872161381979834, guid: 02f4694f138ecbe47b90cf29a5b3563c,
         type: 2}
       propertyPath: ballLeft
       value: 
+      objectReference: {fileID: 1695597375875278, guid: 996ba2a8fdad69447bf7d868bd4c1d40,
+        type: 2}
+    - target: {fileID: 4503366083391992, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114872161381979834, guid: 02f4694f138ecbe47b90cf29a5b3563c,
+        type: 2}
+      propertyPath: ballDown
+      value: 
+      objectReference: {fileID: 1129033412250180, guid: f277d3401c6191b4fb9139a017054b7b,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02f4694f138ecbe47b90cf29a5b3563c, type: 2}
   m_IsPrefabParent: 0
@@ -3645,12 +3661,14 @@ Prefab:
         type: 2}
       propertyPath: ballRight
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1471476507310008, guid: 814a74271fa7ba847bf1bdaacdd838ea,
+        type: 2}
     - target: {fileID: 114521287209696032, guid: 11760140a2bfb7340b48fc33e5e1fb88,
         type: 2}
       propertyPath: ballDown
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1129033412250180, guid: 7bcdd5ca71ed3254988c08036ff70092,
+        type: 2}
     - target: {fileID: 114521287209696032, guid: 11760140a2bfb7340b48fc33e5e1fb88,
         type: 2}
       propertyPath: ballLeft
@@ -3893,17 +3911,20 @@ Prefab:
         type: 2}
       propertyPath: ballRight
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1471476507310008, guid: 10a3dacc7cfca7d4197f1e6b5be02938,
+        type: 2}
     - target: {fileID: 114599098127775904, guid: 673e272ae246dbc479e819d5e3e98545,
         type: 2}
       propertyPath: ballDown
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1129033412250180, guid: ffd137ffcf7a022418dd94c799e1076e,
+        type: 2}
     - target: {fileID: 114599098127775904, guid: 673e272ae246dbc479e819d5e3e98545,
         type: 2}
       propertyPath: ballUp
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1480467555660624, guid: 8220260d629f72b4f90810de064b582a,
+        type: 2}
     - target: {fileID: 114599098127775904, guid: 673e272ae246dbc479e819d5e3e98545,
         type: 2}
       propertyPath: ballLeft
