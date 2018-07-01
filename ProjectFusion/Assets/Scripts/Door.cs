@@ -48,11 +48,5 @@ public class Door : MonoBehaviour
             _collider.enabled = true;
             opened = false;
         }
-        else
-        {
-            _collider.
-        }
     }
-        
-    
 }
