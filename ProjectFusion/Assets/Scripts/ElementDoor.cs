@@ -30,9 +30,13 @@ public class ElementDoor : MonoBehaviour
     {
 
         //if (col.gameObject.CompareTag(_type.ToString()))
-            //Physics2D
+        //Physics2D
+        if (col.gameObject.CompareTag("Player"))
+        {
             if (col.gameObject.GetComponent<Element>().GetCurrentElem() == _type)
                 Physics2D.IgnoreCollision(col.gameObject.GetComponent<Collider2D>(), _collider);
+
+        }
          //   _collider.enabled = false;
         //else
         //{
