@@ -2216,7 +2216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b44e6fb852a475bb3e507f4bb3b741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: SceneArthur
+  nextLevel: Map1
 --- !u!1001 &987285930
 Prefab:
   m_ObjectHideFlags: 0
