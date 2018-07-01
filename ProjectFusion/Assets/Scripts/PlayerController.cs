@@ -10,7 +10,6 @@ public enum Orientation {
 }
 
 public class PlayerController : MonoBehaviour {
-    
     [SerializeField] private float speed;
 //    private GameObject sounds;
 
@@ -29,7 +28,6 @@ public class PlayerController : MonoBehaviour {
         _element = GetComponent<Element>();
         _inductionRange = GetComponent<CircleCollider2D>();
         _inductionParticle = transform.Find("InductionParticle").GetComponent<ParticleSystem>();
-//        sounds = GameObject.Find("Gm");
     }
 
     // Update is called once per frame
@@ -63,27 +61,25 @@ public class PlayerController : MonoBehaviour {
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && name == "PlayerFire") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && name == "PlayerEarth") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && name == "PlayerWater") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && name == "PlayerWind") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
+        if (Input.GetKeyDown(KeyCode.Alpha1) && name == "PlayerFire")
+            ChangeActivePlayer();
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && name == "PlayerEarth")
+            ChangeActivePlayer();
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && name == "PlayerWater")
+            ChangeActivePlayer();
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && name == "PlayerWind")
+            ChangeActivePlayer();
+    }
+
+    private void ChangeActivePlayer()
+    {
+        GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
+        transform.parent = GameObject.Find("ActivePlayer").transform;
+        GameManager.Gm.UpdateElementsHUD();
     }
 
     private void UseSpell () {
-        Debug.Log("Pew");
-        transform.Find("InductionParticle").GetComponent<ParticleSystem>().Play();
+        _inductionParticle.Play();
         _inductionRange.enabled = true;
         Collider2D[] results = new Collider2D[10];
         _inductionRange.OverlapCollider(new ContactFilter2D(), results);
@@ -93,8 +89,11 @@ public class PlayerController : MonoBehaviour {
                 col.GetComponent<Element>().Induction(_element.GetCurrentElem());
             }
         }
-        
+
         _inductionRange.enabled = false;
+
+        SoundManager.soundMan.PlaySound(2);
+
     }
 
     private void OnTriggerStay2D (Collider2D other) {
@@ -110,11 +109,22 @@ public class PlayerController : MonoBehaviour {
             collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water") {
             if (collision.gameObject.tag != this.gameObject.tag) {
                 Destroy(gameObject);
+                SoundManager.soundMan.PlaySound(0);
             }
         }
     }
 
     public void ChangeAnimatorController (ElementType elem) {
-        _animator.runtimeAnimatorController = animatorControllers[(int)elem];
+        _animator.runtimeAnimatorController = animatorControllers[(int) elem];
+    }
+
+    public void ChangeParticleColor (ElementType elem) {
+        Color[] colors = {Color.green, Color.red, Color.blue, Color.yellow};
+        var particleColor = _inductionParticle.colorOverLifetime;
+        Gradient graddient = new Gradient();
+        graddient.SetKeys(
+            new GradientColorKey[] {new GradientColorKey(Color.white, 0.0f), new GradientColorKey(colors[(int)elem], 1.0f)},
+            new GradientAlphaKey[] {new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 1.0f)});
+        particleColor.color = graddient;
     }
 }
