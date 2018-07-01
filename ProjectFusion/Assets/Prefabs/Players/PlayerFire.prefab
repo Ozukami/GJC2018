@@ -189,6 +189,8 @@ MonoBehaviour:
   - {fileID: 22100000, guid: c64757676d1644b4c83b1245230c5a8d, type: 2}
   - {fileID: 22100000, guid: 57cbeb559c8489f4d936706c61ef29ff, type: 2}
   - {fileID: 22100000, guid: 56957566c03c7ad48a81135d6eafb84a, type: 2}
+  _linkParticle: {fileID: 198837686483787738, guid: c5d6d01fb7d40a949b1477b45fb71fc1,
+    type: 2}
 --- !u!198 &198147421270784952
 ParticleSystem:
   m_ObjectHideFlags: 1

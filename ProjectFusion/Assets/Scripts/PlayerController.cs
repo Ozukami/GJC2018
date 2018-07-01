@@ -14,12 +14,16 @@ public class PlayerController : MonoBehaviour {
 //    private GameObject sounds;
 
     [SerializeField] private AnimatorOverrideController[] animatorControllers;
-
+    
+    
     private Element _element;
     private Animator _animator;
     private Rigidbody2D _rb2d;
     private CircleCollider2D _inductionRange;
     private ParticleSystem _inductionParticle;
+    [SerializeField]  
+    private ParticleSystem _linkParticle;
+
 
     // Use this for initialization
     void Start () {
@@ -87,6 +91,17 @@ public class PlayerController : MonoBehaviour {
             if (col && col.name != name && col.gameObject.layer == 10) {
                 Debug.Log(col.name);
                 col.GetComponent<Element>().Induction(_element.GetCurrentElem());
+                Vector3 target = col.transform.position;
+                Vector3 dir = target - transform.position;
+                ParticleSystem newParticle = Instantiate(_linkParticle, target, Quaternion.identity, col.transform);
+                Color[] colors = {Color.green, Color.red, Color.blue, Color.yellow};
+                var particleColor = newParticle.colorOverLifetime;
+                var colorTarget = colors[(int)col.GetComponent<Element>().GetCurrentElem()];
+                Gradient graddient = new Gradient();
+                graddient.SetKeys(
+                    new GradientColorKey[] {new GradientColorKey(colorTarget, 1.0f), new GradientColorKey(colors[(int)_element.GetCurrentElem()], 0.0f)},
+                    new GradientAlphaKey[] {new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 1.0f)});
+                particleColor.color = graddient;
             }
         }
 
@@ -124,7 +139,7 @@ public class PlayerController : MonoBehaviour {
         Gradient graddient = new Gradient();
         graddient.SetKeys(
             new GradientColorKey[] {new GradientColorKey(Color.white, 0.0f), new GradientColorKey(colors[(int)elem], 1.0f)},
-            new GradientAlphaKey[] {new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 1.0f)});
+            new GradientAlphaKey[] {new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.5f, 1.0f)});
         particleColor.color = graddient;
     }
 }
