@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
+using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum GameStates
 {
     Intro,
     Mainmenu,
-    LevelSelection
+    LevelSelection,
+    LoadLevel
 }
 
 public class GameManager : MonoBehaviour
@@ -38,10 +41,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(currentState);
+    
     }
 
-    public GameStates SetState(GameStates state)
+    public GameStates SetState(GameStates state, [CanBeNull] string scene)
     {
         if (currentState != state)
         {
@@ -50,13 +53,13 @@ public class GameManager : MonoBehaviour
             switch (state)
             {
                 case GameStates.Intro:
-                    
                     break;
                 case GameStates.Mainmenu:
-                    
                     break;
                 case GameStates.LevelSelection:
-                    
+                    break;
+                case GameStates.LoadLevel:
+                    SceneManager.LoadScene(scene, LoadSceneMode.Additive);
                     break;
                 default:
                     break;

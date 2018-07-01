@@ -10,6 +10,7 @@ public class EndRoom : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        colliders = 0;
     }
 
     // Update is called once per frame
@@ -21,11 +22,9 @@ public class EndRoom : MonoBehaviour
     {
         colliders++;
 
-        
-        print(colliders);
         if (colliders == 4)
         {
-            GetComponentInParent<GameManager>().SetState(GameStates.LevelSelection);
+            GetComponentInParent<GameManager>().SetState(GameStates.LoadLevel, "SampleScene");
         }
     }
 
