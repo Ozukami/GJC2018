@@ -238,6 +238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audios:
   - {fileID: 8300000, guid: 192ca4a6e4e459c47a51fa7118375658, type: 3}
+  - {fileID: 8300000, guid: e7f33bd8c31e58f4c9718479e30d5f0f, type: 3}
+  - {fileID: 8300000, guid: 72253b800e217b944b88e263947d2646, type: 3}
   - {fileID: 8300000, guid: 3aa3060d4b70da846a897a79bd09c6f9, type: 3}
 --- !u!4 &248137282
 Transform:

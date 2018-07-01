@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour {
         _element = GetComponent<Element>();
         _inductionRange = GetComponent<CircleCollider2D>();
         _inductionParticle = transform.Find("InductionParticle").GetComponent<ParticleSystem>();
-//        sounds = GameObject.Find("Gm");
     }
 
     // Update is called once per frame
@@ -95,6 +94,9 @@ public class PlayerController : MonoBehaviour {
         }
         
         _inductionRange.enabled = false;
+
+        SoundManager.soundMan.PlaySound(2);
+
     }
 
     private void OnTriggerStay2D (Collider2D other) {
@@ -110,6 +112,7 @@ public class PlayerController : MonoBehaviour {
             collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water") {
             if (collision.gameObject.tag != this.gameObject.tag) {
                 Destroy(gameObject);
+                SoundManager.soundMan.PlaySound(0);
             }
         }
     }
