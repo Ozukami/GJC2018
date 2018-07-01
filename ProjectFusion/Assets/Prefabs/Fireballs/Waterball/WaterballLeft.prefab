@@ -81,6 +81,7 @@ MonoBehaviour:
   fireSpeed: 0.5
   VelX: -1
   VelY: 0
+  element: water
 --- !u!212 &212157255840192814
 SpriteRenderer:
   m_ObjectHideFlags: 1

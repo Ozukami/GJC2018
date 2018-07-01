@@ -81,6 +81,7 @@ MonoBehaviour:
   fireSpeed: 0.5
   VelX: 0
   VelY: 1
+  element: wind
 --- !u!212 &212585637692139780
 SpriteRenderer:
   m_ObjectHideFlags: 1
