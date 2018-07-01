@@ -10,14 +10,24 @@ public enum Orientation
     left = 3
 }
 
+public abstract class Caracteristics
+{
+    public int Fire;
+    public int Earth;
+    public int Water;
+    public int Wind;
+    public string MainCarac;
+}
+
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private bool isDead = false;
     private GameObject sounds;
     private int life = 10;
-    private int orientation;
+    private Caracteristics caracs;
 
+    private Element _element;
     private Animator _animator;
     private Rigidbody2D _rb2d;
 
@@ -26,6 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _rb2d = GetComponent<Rigidbody2D>();
+        _element = GetComponent<Element>();
         sounds = GameObject.Find("Gm");
     }
 
@@ -104,7 +115,10 @@ public class PlayerController : MonoBehaviour
         foreach (var col in results)
         {
             if (col && col.name != name && col.gameObject.layer == 10)
+            {
                 Debug.Log(col.name);
+                col.gameObject.GetComponent<Element>().SetCaracs(_element.GetMainCarac());
+            }
         }
 
         GetComponent<CircleCollider2D>().enabled = false;
@@ -123,14 +137,13 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag=="Fire" || collision.gameObject.tag == "Earth" || collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water")
+        if (collision.gameObject.tag == "Fire" || collision.gameObject.tag == "Earth" ||
+            collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water")
         {
             if (collision.gameObject.tag != this.gameObject.tag)
             {
-              
                 Destroy(gameObject);
             }
         }
-
     }
 }
