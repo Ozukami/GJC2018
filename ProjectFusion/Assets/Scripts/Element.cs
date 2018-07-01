@@ -46,6 +46,7 @@ public class Element : MonoBehaviour
     public void Induction (ElementType elementType) {
         DecreaseElem(elementType);
         IncreaseElem(elementType);
+        GameManager.Gm.UpdateElementsHUD();
     }
 
     private void IncreaseElem (ElementType elemType) {
@@ -66,6 +67,11 @@ public class Element : MonoBehaviour
             }
         }
         elementValues[maxElem] = Mathf.Max(0, elementValues[maxElem] - 10);
+    }
+
+    public Dictionary<ElementType, int> GetElemDictionnary()
+    {
+        return elementValues;
     }
     
 }

@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour {
     private bool gameOver = false;
 
     private GameObject _hud;
+    private Dictionary<ElementType, int> activePlayerElem;
+    private string elemKey;
+    
 
     void Awake () {
         if (Gm == null) {
@@ -37,8 +40,10 @@ public class GameManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        activePlayerElem = GameObject.Find("ActivePlayer").GetComponentInChildren<Element>().GetElemDictionnary();
         endRoom = GetComponentInChildren<BoxCollider2D>();
         _hud = GameObject.Find("HUD");
+        UpdateElementsHUD();
     }
 
     // Update is called once per frame
@@ -64,6 +69,16 @@ public class GameManager : MonoBehaviour {
             Heal();
         if (Input.GetKeyDown(KeyCode.R))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void UpdateElementsHUD()
+    {
+        activePlayerElem = GameObject.Find("ActivePlayer").GetComponentInChildren<Element>().GetElemDictionnary();
+        foreach (var elem in activePlayerElem)
+        {
+            elemKey = elem.Key.ToString();
+            _hud.transform.Find("Elements").Find(elemKey).GetComponent<Slider>().value = elem.Value;
+        }
     }
 
     public GameStates SetState (GameStates state, [CanBeNull] string scene) {

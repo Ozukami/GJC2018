@@ -63,22 +63,21 @@ public class PlayerController : MonoBehaviour {
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && name == "PlayerFire") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && name == "PlayerEarth") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && name == "PlayerWater") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && name == "PlayerWind") {
-            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-            transform.parent = GameObject.Find("ActivePlayer").transform;
-        }
+        if (Input.GetKeyDown(KeyCode.Alpha1) && name == "PlayerFire")
+            ChangeActivePlayer();
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && name == "PlayerEarth")
+            ChangeActivePlayer();
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && name == "PlayerWater")
+            ChangeActivePlayer();
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && name == "PlayerWind")
+            ChangeActivePlayer();
+    }
+
+    private void ChangeActivePlayer()
+    {
+        GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
+        transform.parent = GameObject.Find("ActivePlayer").transform;
+        GameManager.Gm.UpdateElementsHUD();
     }
 
     private void UseSpell () {
