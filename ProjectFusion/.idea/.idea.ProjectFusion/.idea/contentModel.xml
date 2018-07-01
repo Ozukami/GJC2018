@@ -7,6 +7,7 @@
         <e p="Scripts" t="Include">
           <e p="Door.cs" t="Include" />
           <e p="Element.cs" t="Include" />
+          <e p="ElementDoor.cs" t="Include" />
           <e p="EndRoom.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="Fireball.cs" t="Include" />
@@ -15,7 +16,7 @@
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
-          <e p="SoundEffects.cs" t="Include" />
+          <e p="SoundManager.cs" t="Include" />
           <e p="Switch.cs" t="Include" />
         </e>
       </e>

@@ -7,9 +7,13 @@ TagManager:
   - Switch
   - Tower
   - Fire
-  - Water
-  - Air
   - Earth
+  - Wind
+  - Water
+  - fire
+  - earth
+  - wind
+  - water
   layers:
   - Default
   - TransparentFX
@@ -19,8 +23,8 @@ TagManager:
   - UI
   - 
   - 
-  - Walls
-  - Usable Environment
+  - 
+  - 
   - 
   - 
   - 

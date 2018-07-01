@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Orientation {
+public enum Orientation
+{
     up = 0,
     down = 1,
     right = 2,
     left = 3
 }
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
     [SerializeField] private float speed;
 //    private GameObject sounds;
 
@@ -22,7 +24,8 @@ public class PlayerController : MonoBehaviour {
     private ParticleSystem _inductionParticle;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         _animator = GetComponent<Animator>();
         _rb2d = GetComponent<Rigidbody2D>();
         _element = GetComponent<Element>();
@@ -31,19 +34,24 @@ public class PlayerController : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
+    void Update()
+    {
         _animator.SetBool("isActive", (transform.parent != null));
     }
 
-    void FixedUpdate () {
+    void FixedUpdate()
+    {
         InputHandler();
     }
 
-    void InputHandler () {
-        if (transform.root.name == "ActivePlayer") {
+    void InputHandler()
+    {
+        if (transform.root.name == "ActivePlayer")
+        {
             float axisX = Input.GetAxis("Horizontal");
             float axisY = Input.GetAxis("Vertical");
-            if (axisX != 0 || axisY != 0) {
+            if (axisX != 0 || axisY != 0)
+            {
                 _animator.SetBool("isWalking", true);
                 _animator.SetFloat("orientationX", axisX);
                 _animator.SetFloat("orientationY", axisY);
@@ -56,7 +64,8 @@ public class PlayerController : MonoBehaviour {
             _animator.SetFloat("axisY", axisY);
             transform.Translate(Vector3.right * axisX * Time.deltaTime * speed);
             transform.Translate(Vector3.up * axisY * Time.deltaTime * speed);
-            if (Input.GetKeyDown(KeyCode.Space)) {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
                 UseSpell();
             }
         }
@@ -73,18 +82,25 @@ public class PlayerController : MonoBehaviour {
 
     private void ChangeActivePlayer()
     {
-        GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
-        transform.parent = GameObject.Find("ActivePlayer").transform;
-        GameManager.Gm.UpdateElementsHUD();
+        if (GameObject.Find("ActivePlayer").transform.GetChild(0).parent)
+        {
+            GameObject.Find("ActivePlayer").transform.GetChild(0).parent = null;
+            transform.parent = GameObject.Find("ActivePlayer").transform;
+        }
+        
+//        GameManager.Gm.UpdateElementsHUD();
     }
 
-    private void UseSpell () {
+    private void UseSpell()
+    {
         _inductionParticle.Play();
         _inductionRange.enabled = true;
         Collider2D[] results = new Collider2D[10];
         _inductionRange.OverlapCollider(new ContactFilter2D(), results);
-        foreach (var col in results) {
-            if (col && col.name != name && col.gameObject.layer == 10) {
+        foreach (var col in results)
+        {
+            if (col && col.name != name && col.gameObject.layer == 10)
+            {
                 Debug.Log(col.name);
                 col.GetComponent<Element>().Induction(_element.GetCurrentElem());
             }
@@ -93,37 +109,45 @@ public class PlayerController : MonoBehaviour {
         _inductionRange.enabled = false;
 
         SoundManager.soundMan.PlaySound(2);
-
     }
 
-    private void OnTriggerStay2D (Collider2D other) {
-        if (other.CompareTag("Switch")) {
-            if (Input.GetKeyDown(KeyCode.E)) {
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Switch"))
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
                 other.GetComponent<Switch>().ActivateSwitch();
             }
         }
     }
 
-    private void OnCollisionEnter2D (Collision2D collision) {
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
         if (collision.gameObject.tag == "Fire" || collision.gameObject.tag == "Earth" ||
-            collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water") {
-            if (collision.gameObject.tag != this.gameObject.tag) {
+            collision.gameObject.tag == "Air" || collision.gameObject.tag == "Water")
+        {
+            if (collision.gameObject.tag != this.gameObject.tag)
+            {
                 Destroy(gameObject);
                 SoundManager.soundMan.PlaySound(0);
             }
         }
     }
 
-    public void ChangeAnimatorController (ElementType elem) {
+    public void ChangeAnimatorController(ElementType elem)
+    {
         _animator.runtimeAnimatorController = animatorControllers[(int) elem];
     }
 
-    public void ChangeParticleColor (ElementType elem) {
+    public void ChangeParticleColor(ElementType elem)
+    {
         Color[] colors = {Color.green, Color.red, Color.blue, Color.yellow};
         var particleColor = _inductionParticle.colorOverLifetime;
         Gradient graddient = new Gradient();
         graddient.SetKeys(
-            new GradientColorKey[] {new GradientColorKey(Color.white, 0.0f), new GradientColorKey(colors[(int)elem], 1.0f)},
+            new GradientColorKey[]
+                {new GradientColorKey(Color.white, 0.0f), new GradientColorKey(colors[(int) elem], 1.0f)},
             new GradientAlphaKey[] {new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 1.0f)});
         particleColor.color = graddient;
     }
