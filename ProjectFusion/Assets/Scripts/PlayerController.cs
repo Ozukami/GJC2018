@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
     private Animator _animator;
     private Rigidbody2D _rb2d;
     private CircleCollider2D _inductionRange;
+    private ParticleSystem _inductionParticle;
 
     // Use this for initialization
     void Start () {
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour {
         _rb2d = GetComponent<Rigidbody2D>();
         _element = GetComponent<Element>();
         _inductionRange = GetComponent<CircleCollider2D>();
+//        _inductionParticle = transform.Find("InductionParticle").GetComponent<ParticleSystem>();
 //        sounds = GameObject.Find("Gm");
     }
 
@@ -81,6 +83,7 @@ public class PlayerController : MonoBehaviour {
 
     private void UseSpell () {
         Debug.Log("Pew");
+        transform.Find("InductionParticle").GetComponent<ParticleSystem>().Play();
         _inductionRange.enabled = true;
         Collider2D[] results = new Collider2D[10];
         _inductionRange.OverlapCollider(new ContactFilter2D(), results);
@@ -90,7 +93,7 @@ public class PlayerController : MonoBehaviour {
                 col.GetComponent<Element>().Induction(_element.GetCurrentElem());
             }
         }
-
+        
         _inductionRange.enabled = false;
     }
 

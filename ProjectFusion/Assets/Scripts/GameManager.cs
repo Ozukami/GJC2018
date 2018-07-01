@@ -90,7 +90,7 @@ public class GameManager : MonoBehaviour {
 
     public void TakeDamage () {
         if (life <= 0) return;
-        _hud.transform.GetChild(0).GetChild(--life).GetComponent<Image>().sprite = emptyHeart;
+        _hud.transform.Find("Life").GetChild(--life).GetComponent<Image>().sprite = emptyHeart;
         if (life == 0) {
             Time.timeScale = 0;
             gameOver = true;
@@ -100,7 +100,7 @@ public class GameManager : MonoBehaviour {
 
     public void Heal () {
         if (life >= 5) return;
-        _hud.transform.GetChild(0).GetChild(life++).GetComponent<Image>().sprite = fullHeart;
+        _hud.transform.Find("Life").GetChild(life++).GetComponent<Image>().sprite = fullHeart;
     }
     
 }
