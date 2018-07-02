@@ -16,12 +16,12 @@ public class PlayerProjectile : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D (Collider2D other) {
-        if (other.gameObject.tag == this.gameObject.tag) {
+        if (other.gameObject.tag == gameObject.tag) {
+            SoundManager.soundMan.PlaySound(1);
             Destroy(other.gameObject);
-            SoundManager.soundMan.PlaySound(2);
         }
         if (other.gameObject.tag != "Player") {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
@@ -29,6 +29,6 @@ public class PlayerProjectile : MonoBehaviour {
         if (other.gameObject.CompareTag("Lava")) {
             Destroy(other.gameObject);
         }
-        Debug.Log("Test");
+        Debug.Log("Test2");
     }
 }

@@ -37,7 +37,6 @@ GameObject:
   - component: {fileID: 212104100308046550}
   - component: {fileID: 50115889857527604}
   - component: {fileID: 61122542549634446}
-  - component: {fileID: 95664732945833776}
   - component: {fileID: 114186162367029194}
   m_Layer: 0
   m_Name: EnemySprite
@@ -80,7 +79,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1353028572974922}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -90,7 +89,7 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &61122542549634446
@@ -118,24 +117,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3077672, y: 0.29870296}
   m_EdgeRadius: 0
---- !u!95 &95664732945833776
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1353028572974922}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 59edd27dcac09b64886b5a54e0229d59, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114186162367029194
 MonoBehaviour:
   m_ObjectHideFlags: 1
