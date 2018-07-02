@@ -150,6 +150,7 @@ MonoBehaviour:
   patrolPoints: []
   element: earth
   moveSpeed: 0.5
+  isStatic: 1
 --- !u!212 &212104100308046550
 SpriteRenderer:
   m_ObjectHideFlags: 1

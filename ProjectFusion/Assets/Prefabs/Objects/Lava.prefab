@@ -150,6 +150,7 @@ MonoBehaviour:
   patrolPoints: []
   element: water
   moveSpeed: 0.5
+  isStatic: 1
 --- !u!212 &212389636308291710
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SceneArthur.unity
+    path: Assets/Scenes/GameScenes/0-Intro.unity
     guid: 14c66c2718e2e1b4ab542c5ba03fd9ab
   - enabled: 1
-    path: Assets/Scenes/Map1.unity
+    path: Assets/Scenes/GameScenes/1-Level1.unity
+    guid: 8578a6289f07f764cb68839540706553
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/2-Level2.unity
+    guid: 421f037a3ffa85444b8c54d20ed7bd62
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/3-Level3.unity
     guid: ba22d513d32caf241a22b7541830a2c9
   - enabled: 1
-    path: Assets/Scenes/Map2.unity
-    guid: cd81c712a22b2cc489428a4478f2c1ab
-  - enabled: 1
-    path: Assets/Scenes/Map3.unity
+    path: Assets/Scenes/GameScenes/4-Level4.unity
     guid: c3482966d999b054f94c2eb6daea5687
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/5-Boss.unity
+    guid: acfea08c3149a604e97abab8eed23c40
   m_configObjects: {}

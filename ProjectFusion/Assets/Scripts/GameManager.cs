@@ -14,11 +14,10 @@ public enum GameStates {
 }
 
 public class GameManager : MonoBehaviour {
-    private BoxCollider2D endRoom;
     public bool paused;
     private GameStates currentState;
     public static GameManager Gm = null;
-    
+
     private int life = 5;
     [SerializeField] private Sprite fullHeart;
     [SerializeField] private Sprite emptyHeart;
@@ -27,26 +26,21 @@ public class GameManager : MonoBehaviour {
     private GameObject _hud;
     private Dictionary<ElementType, int> activePlayerElem;
     private string elemKey;
-    
 
     void Awake () {
         if (Gm == null) {
             Gm = this;
-        }
-        else if (Gm != this) {
+        } else if (Gm != this) {
             Destroy(gameObject);
         }
     }
 
-    // Use this for initialization
     void Start () {
         activePlayerElem = GameObject.Find("ActivePlayer").GetComponentInChildren<Element>().GetElemDictionnary();
-        endRoom = GetComponentInChildren<BoxCollider2D>();
         _hud = GameObject.Find("HUD");
         UpdateElementsHUD();
     }
 
-    // Update is called once per frame
     void Update () {
         if (Input.GetKeyDown(KeyCode.Return) && gameOver) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -55,27 +49,27 @@ public class GameManager : MonoBehaviour {
             if (Time.timeScale > 0) {
                 Time.timeScale = 0;
                 _hud.transform.Find("Pause").gameObject.SetActive(true);
-            }
-            else {
+            } else {
                 Time.timeScale = 1;
                 _hud.transform.Find("Pause").gameObject.SetActive(false);
             }
         }
 
-        /* Debug Inputs */
+        /* Debug/Cheat Inputs */
         if (Input.GetKeyDown(KeyCode.T))
             TakeDamage();
         if (Input.GetKeyDown(KeyCode.H))
             Heal();
         if (Input.GetKeyDown(KeyCode.R))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (Input.GetKeyDown(KeyCode.N))
+            SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)
+                                   % SceneManager.sceneCountInBuildSettings);
     }
 
-    public void UpdateElementsHUD()
-    {
+    public void UpdateElementsHUD () {
         activePlayerElem = GameObject.Find("ActivePlayer").GetComponentInChildren<Element>().GetElemDictionnary();
-        foreach (var elem in activePlayerElem)
-        {
+        foreach (var elem in activePlayerElem) {
             elemKey = elem.Key.ToString();
             _hud.transform.Find("Elements").Find(elemKey).GetComponent<Slider>().value = elem.Value;
         }
@@ -94,8 +88,6 @@ public class GameManager : MonoBehaviour {
                     break;
                 case GameStates.LoadLevel:
                     SceneManager.LoadScene(scene, LoadSceneMode.Single);
-                    break;
-                default:
                     break;
             }
         }
@@ -119,5 +111,5 @@ public class GameManager : MonoBehaviour {
         if (life >= 5) return;
         _hud.transform.Find("Life").GetChild(life++).GetComponent<Image>().sprite = fullHeart;
     }
-    
+
 }

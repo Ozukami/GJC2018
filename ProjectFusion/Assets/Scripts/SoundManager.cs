@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
-    private AudioSource audio;
     private AudioSource[] audioSources;
 
-    public AudioClip[] audios;
     public static SoundManager soundMan = null;
 
     void Awake()
@@ -22,7 +20,6 @@ public class SoundManager : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-        audio = GetComponent<AudioSource>();
         audioSources = GetComponents<AudioSource>();
     }
 

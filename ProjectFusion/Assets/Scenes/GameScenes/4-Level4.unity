@@ -2033,7 +2033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b44e6fb852a475bb3e507f4bb3b741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: SceneArthur
+  nextLevel: 5-Boss
 --- !u!61 &234296623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16938,7 +16938,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.2194346
+  orthographic size: 1.0557835
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -16961,7 +16961,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1864914473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.46, y: -0.6, z: -10}
+  m_LocalPosition: {x: 0.46, y: -0.68, z: -10}
   m_LocalScale: {x: 0.9587032, y: 0.95870346, z: 0.95870346}
   m_Children: []
   m_Father: {fileID: 0}
