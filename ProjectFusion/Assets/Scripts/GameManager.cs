@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour {
     }
 
     void Start () {
-        activePlayerElem = GameObject.Find("ActivePlayer").GetComponentInChildren<Element>().GetElemDictionnary();
         _hud = GameObject.Find("HUD");
         UpdateElementsHUD();
     }
@@ -45,7 +44,7 @@ public class GameManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Return) && gameOver) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             Time.timeScale = 1;
-        } else if (Input.GetKeyDown(KeyCode.Escape)) {
+        } else if (Input.GetKeyDown(KeyCode.Escape) && !gameOver) {
             if (Time.timeScale > 0) {
                 Time.timeScale = 0;
                 _hud.transform.Find("Pause").gameObject.SetActive(true);
@@ -69,9 +68,11 @@ public class GameManager : MonoBehaviour {
 
     public void UpdateElementsHUD () {
         activePlayerElem = GameObject.Find("ActivePlayer").GetComponentInChildren<Element>().GetElemDictionnary();
-        foreach (var elem in activePlayerElem) {
-            elemKey = elem.Key.ToString();
-            _hud.transform.Find("Elements").Find(elemKey).GetComponent<Slider>().value = elem.Value;
+        if (activePlayerElem != null) {
+            foreach (var elem in activePlayerElem) {
+                elemKey = elem.Key.ToString();
+                _hud.transform.Find("Elements").Find(elemKey).GetComponent<Slider>().value = elem.Value;
+            }
         }
     }
 

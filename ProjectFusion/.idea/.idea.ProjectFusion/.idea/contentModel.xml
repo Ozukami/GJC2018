@@ -23,6 +23,7 @@
           <e p="PlayerProjectile.cs" t="Include" />
           <e p="SoundManager.cs" t="Include" />
           <e p="Switch.cs" t="Include" />
+          <e p="TitleScreen.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

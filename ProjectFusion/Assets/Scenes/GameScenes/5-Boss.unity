@@ -2260,7 +2260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b44e6fb852a475bb3e507f4bb3b741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: SceneArthur
+  nextLevel: TitleScreen
 --- !u!1001 &987285930
 Prefab:
   m_ObjectHideFlags: 0
@@ -5034,9 +5034,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d35b676754f12e469c65b0dc8797d51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolPoints: []
-  element: 
-  moveSpeed: 0
   life: 30
 --- !u!1001 &1592379526
 Prefab:
